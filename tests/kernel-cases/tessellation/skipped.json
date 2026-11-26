@@ -1,0 +1,1018 @@
+[
+ {
+  "source": "#15",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#48",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#63",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#78",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#79",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#92",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#95",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#125",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#133",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#134",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#173",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#175",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#202",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#256",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#301",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#335",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#346",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#352",
+  "why": "other area: sweeps (projection of faces split by hidden seams is a sketch-projection feature, not a mesh defect)"
+ },
+ {
+  "source": "#358",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#472",
+  "why": "feature: Patch fills non-planar edge loops with one smooth face (#250); not a tessellation defect"
+ },
+ {
+  "source": "#550",
+  "why": "other area: sheet-metal"
+ },
+ {
+  "source": "#581",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#615",
+  "why": "other area: booleans (a mesh body is not a solid for a cut; the refusal is by design)"
+ },
+ {
+  "source": "#620",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#623",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#636",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#642",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#650",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#654",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#658",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#667",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#673",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#706",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#714",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#720",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#742",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#744",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#756",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#762",
+  "why": "feature: surface.ruled strips off an edge chain, no defect"
+ },
+ {
+  "source": "#766",
+  "why": "feature: surface.unstitch and surface.reverse_normal commands, no defect"
+ },
+ {
+  "source": "#775",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#796",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#797",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#800",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#802",
+  "why": "display-plan / display-quality plumbing for the viewport; the kernel's measured mesh and B-rep are not affected"
+ },
+ {
+  "source": "#803",
+  "why": "display-plan / display-quality plumbing for the viewport; the kernel's measured mesh and B-rep are not affected"
+ },
+ {
+  "source": "#805",
+  "why": "display-plan / display-quality plumbing for the viewport; the kernel's measured mesh and B-rep are not affected"
+ },
+ {
+  "source": "#806",
+  "why": "display-plan / display-quality plumbing for the viewport; the kernel's measured mesh and B-rep are not affected"
+ },
+ {
+  "source": "#813",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#829",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#837",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#842",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#849",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#856",
+  "why": "implements the unstitch and reverse-normal commands of #766; a feature, not a defect"
+ },
+ {
+  "source": "#870",
+  "why": "re-records a robustness golden after the tessellation plans; no geometry of its own"
+ },
+ {
+  "source": "#878",
+  "why": "a Windows-only robustness golden (seed 0) differing during render integration; no geometry of its own"
+ },
+ {
+  "source": "#900",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#906",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#914",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#916",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#917",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#936",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#940",
+  "why": "re-records robustness goldens after the body mesh moved back to the reference mesher; no recipe of its own"
+ },
+ {
+  "source": "#961",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#974",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#983",
+  "why": "GPU/viewport drawing only (depth, highlight, shaders): the B-rep and its mesh are right"
+ },
+ {
+  "source": "#1003",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#1004",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1012",
+  "why": "GPU/viewport drawing only (depth, highlight, shaders): the B-rep and its mesh are right"
+ },
+ {
+  "source": "#1019",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1022",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1038",
+  "why": "performance only: a small hole takes 7.5 s while meshing its intersection edges; no wrong geometry"
+ },
+ {
+  "source": "#1046",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1087",
+  "why": "diagnostic feature: sampled G0/G1/G2 seam reports; no defect"
+ },
+ {
+  "source": "#1098",
+  "why": "GPU startup crash: the tessellation shader fails to compile on D3D12 with FXC"
+ },
+ {
+  "source": "#1099",
+  "why": "GPU startup crash fix: CPU fallback for the tessellation pipeline"
+ },
+ {
+  "source": "#1113",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#1142",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1152",
+  "why": "other area: import"
+ },
+ {
+  "source": "#1157",
+  "why": "the fix for #882 (one unmeshed fillet strip of an owner's design): no small synthetic recipe with a closed-form answer"
+ },
+ {
+  "source": "#1163",
+  "why": "display-plan / display-quality plumbing for the viewport; the kernel's measured mesh and B-rep are not affected"
+ },
+ {
+  "source": "#1200",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#1213",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#1218",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1223",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1237",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1252",
+  "why": "other area: crashes"
+ },
+ {
+  "source": "#1259",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#1267",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1272",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1287",
+  "why": "display-plan / display-quality plumbing for the viewport; the kernel's measured mesh and B-rep are not affected"
+ },
+ {
+  "source": "#1289",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#1291",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#1300",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#1307",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#1309",
+  "why": "performance only: point-in-trim tests skip runs of segments; same meshes as before"
+ },
+ {
+  "source": "#1313",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1319",
+  "why": "display-plan / display-quality plumbing for the viewport; the kernel's measured mesh and B-rep are not affected"
+ },
+ {
+  "source": "#1320",
+  "why": "display-plan / display-quality plumbing for the viewport; the kernel's measured mesh and B-rep are not affected"
+ },
+ {
+  "source": "#1327",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1332",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1339",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1345",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1346",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1348",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#1358",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1364",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#1368",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1374",
+  "why": "other area: import"
+ },
+ {
+  "source": "#1385",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1400",
+  "why": "other area: import"
+ },
+ {
+  "source": "#1425",
+  "why": "display-quality refinement as you zoom (viewport only); the kernel's B-rep and measured mesh are not affected"
+ },
+ {
+  "source": "#1434",
+  "why": "GPU/viewport drawing only (depth, highlight, shaders): the B-rep and its mesh are right"
+ },
+ {
+  "source": "#1442",
+  "why": "report with no description, only a screenshot of an unnamed part: nothing to rebuild"
+ },
+ {
+  "source": "#1454",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1455",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#1459",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1460",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1461",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1462",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1464",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1468",
+  "why": "other area: import"
+ },
+ {
+  "source": "#1477",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1492",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1493",
+  "why": "other area: import"
+ },
+ {
+  "source": "#1494",
+  "why": "other area: shell"
+ },
+ {
+  "source": "#1512",
+  "why": "other area: import"
+ },
+ {
+  "source": "#1553",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1579",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1605",
+  "why": "other area: import"
+ },
+ {
+  "source": "#1640",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1651",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1652",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1654",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1655",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1656",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1658",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1677",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1693",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1694",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1695",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1696",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1698",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1699",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1700",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1721",
+  "why": "other area: import"
+ },
+ {
+  "source": "#1722",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1723",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1724",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1726",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#1739",
+  "why": "GPU depth fighting between the origin gizmo and a face (fixed by #1768); no B-rep cause"
+ },
+ {
+  "source": "#1742",
+  "why": "other area: import"
+ },
+ {
+  "source": "#1743",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1768",
+  "why": "GPU/viewport drawing only (depth, highlight, shaders): the B-rep and its mesh are right"
+ },
+ {
+  "source": "#1773",
+  "why": "GPU/viewport drawing only (depth, highlight, shaders): the B-rep and its mesh are right"
+ },
+ {
+  "source": "#1776",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#1799",
+  "why": "other area: sheet-metal"
+ },
+ {
+  "source": "#1812",
+  "why": "empty description; it only edits the boolean property-test harness, no geometry stated"
+ },
+ {
+  "source": "#1902",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1907",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1910",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#1912",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1978",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#1983",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#2015",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2034",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#2054",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2056",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2057",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2067",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#2086",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2095",
+  "why": "timing of a thread's faceted cut in a kernel profile; no geometry defect"
+ },
+ {
+  "source": "#2102",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2115",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#2130",
+  "why": "GPU/UI only: the face hover highlight flickers while panning on a touchpad"
+ },
+ {
+  "source": "#2134",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2153",
+  "why": "GPU display only: zebra analysis flickers on horizontal faces of a bolted flange while the camera rotates; the B-rep is a plain extruded and patterned flange"
+ },
+ {
+  "source": "#2156",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#2191",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#2235",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#2325",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2367",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#2482",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#2487",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2488",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#2508",
+  "why": "other area: import"
+ },
+ {
+  "source": "#2513",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2526",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#2560",
+  "why": "UI only: the Save as Mesh button stays disabled until bodies are selected"
+ },
+ {
+  "source": "#2568",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2603",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2662",
+  "why": "test-coverage audit of mutants in the tessellator; no geometry defect"
+ },
+ {
+  "source": "#2675",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2698",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#2769",
+  "why": "feature request: an option to export a finer STL (the Save as Mesh dialog has no tolerance); not a defect"
+ },
+ {
+  "source": "#2780",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2809",
+  "why": "other area: import"
+ },
+ {
+  "source": "#2811",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#2846",
+  "why": "feature request: a chord-tolerance option for Save as Mesh; the default export is not wrong geometry"
+ },
+ {
+  "source": "#2865",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#2867",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#2868",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#2880",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#2895",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#2922",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#2924",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#2947",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#2948",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#3001",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#3012",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#3020",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#3047",
+  "why": "other area: import"
+ },
+ {
+  "source": "#3059",
+  "why": "GPU/viewport drawing only (depth, highlight, shaders): the B-rep and its mesh are right"
+ },
+ {
+  "source": "#3071",
+  "why": "mesher unit case on a hand-built rational B-spline patch; no command builds that face (it came from an imported purchased part), so no synthetic recipe shows the self-crossing sliver"
+ },
+ {
+  "source": "#3072",
+  "why": "the fix for #3071 (self-crossing sliver face): no command-level repro, see #3071"
+ },
+ {
+  "source": "#3127",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#3142",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#3178",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#3207",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#3208",
+  "why": "other area: import"
+ },
+ {
+  "source": "#3249",
+  "why": "not a tessellation defect: inspect.interference/clearance skip mesh bodies (feature gap for imported mesh bodies)"
+ },
+ {
+  "source": "#3258",
+  "why": "not a tessellation defect: lists mesh bodies as unchecked in inspect.interference/clearance"
+ },
+ {
+  "source": "#3311",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#3368",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#3369",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#3370",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#3400",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#3410",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#3437",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#3480",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#3503",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#3504",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#3528",
+  "why": "other area: booleans"
+ },
+ {
+  "source": "#3616",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#3699",
+  "why": "UI only: the extrude preview direction"
+ },
+ {
+  "source": "#3700",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#3712",
+  "why": "adds chord tolerance and facet angle options to Save as Mesh; no geometry defect"
+ },
+ {
+  "source": "#3722",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#3755",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#3847",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#3849",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#3873",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#3899",
+  "why": "other area: crashes (a non-affine matrix reaches only the kernel's transform_matrix API; no command passes a matrix and solid.scale already refuses a zero factor, so no recipe reaches it)"
+ },
+ {
+  "source": "#3906",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#3922",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#3924",
+  "why": "other area: import"
+ },
+ {
+  "source": "#3925",
+  "why": "other area: import"
+ },
+ {
+  "source": "#3942",
+  "why": "other area: import (mesh-body conversion and mesh-to-solid reconstruction, not a tessellation artefact)"
+ },
+ {
+  "source": "#3981",
+  "why": "performance or caching only: no wrong geometry, nothing graded by shape"
+ },
+ {
+  "source": "#4021",
+  "why": "other area: import"
+ },
+ {
+  "source": "#4105",
+  "why": "UI only: no geometry or mesh in the report"
+ },
+ {
+  "source": "#4127",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#4154",
+  "why": "rendering pipeline (CPU/GPU renderer, lighting, materials); no B-rep or mesh geometry"
+ },
+ {
+  "source": "#2450",
+  "why": "display only: Section Analysis draws a white line along the edge of a circular-pattern of a revolve; the report has no revolve profile or section plane, and the solid itself is not claimed wrong"
+ }
+]

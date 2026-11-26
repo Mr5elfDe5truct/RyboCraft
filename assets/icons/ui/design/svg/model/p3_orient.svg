@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Auto Orient</title>
+  <path d="M5 53L59 53L59 59L5 59Z" fill="#8e9faf"/>
+  <path d="M5 53L59 53L59 59L5 59Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 51L12.95 43.5L12.95 28.5L26 36Z" fill="#b8c3cf"/>
+  <path d="M26 51L12.95 43.5L12.95 28.5L26 36Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 51L39.05 43.5L39.05 28.5L26 36Z" fill="#8e9faf"/>
+  <path d="M26 51L39.05 43.5L39.05 28.5L26 36Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 36L12.95 28.5L26 21L39.05 28.5Z" fill="#e2e8ef"/>
+  <path d="M26 36L12.95 28.5L26 21L39.05 28.5Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M44 44L52 36L53 24L46 14" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M42 9L51.9 11.83L44.83 18.9Z" fill="#236ead"/>
+</svg>

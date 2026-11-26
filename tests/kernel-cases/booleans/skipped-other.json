@@ -1,0 +1,294 @@
+[
+ {
+  "source": "#25",
+  "why": "test infrastructure (spatial reference comparison), no geometry failure"
+ },
+ {
+  "source": "#195",
+  "why": "sketch.create refusal on a user's face; needs the user's design, no geometry spec"
+ },
+ {
+  "source": "#255",
+  "why": "performance only, no wrong result"
+ },
+ {
+  "source": "#287",
+  "why": "performance only, no wrong result"
+ },
+ {
+  "source": "#291",
+  "why": "feature request (integer arithmetic), no geometry case"
+ },
+ {
+  "source": "#331",
+  "why": "kernel evaluation or tracking, not a geometry failure"
+ },
+ {
+  "source": "#344",
+  "why": "sketch.create refusal on a user's face; needs the user's design, no geometry spec"
+ },
+ {
+  "source": "#415",
+  "why": "sketch.create refusal on two intersecting cylinders plus a feature request; no dimensions to rebuild"
+ },
+ {
+  "source": "#424",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#446",
+  "why": "surface-modelling feature or proposal, not a failing solid operation"
+ },
+ {
+  "source": "#466",
+  "why": "other area: tessellation (revolved cone tip shows indentations; the profile coordinates are not given)"
+ },
+ {
+  "source": "#467",
+  "why": "no reproduction data (screenshot or video only)"
+ },
+ {
+  "source": "#611",
+  "why": "performance only, no wrong result"
+ },
+ {
+  "source": "#669",
+  "why": "surface-modelling feature or proposal, not a failing solid operation"
+ },
+ {
+  "source": "#759",
+  "why": "surface-modelling feature or proposal, not a failing solid operation"
+ },
+ {
+  "source": "#763",
+  "why": "surface-modelling feature or proposal, not a failing solid operation"
+ },
+ {
+  "source": "#767",
+  "why": "surface-modelling feature or proposal, not a failing solid operation"
+ },
+ {
+  "source": "#770",
+  "why": "surface-modelling feature or proposal, not a failing solid operation"
+ },
+ {
+  "source": "#772",
+  "why": "surface-modelling feature or proposal, not a failing solid operation"
+ },
+ {
+  "source": "#987",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#1008",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#1191",
+  "why": "other area: fillets"
+ },
+ {
+  "source": "#1202",
+  "why": "no reproduction data (screenshot or video only)"
+ },
+ {
+  "source": "#1308",
+  "why": "property-test PR, tests not a failing case"
+ },
+ {
+  "source": "#1317",
+  "why": "UI or customization PR, not geometry"
+ },
+ {
+  "source": "#1328",
+  "why": "no reproduction data (screenshot or video only)"
+ },
+ {
+  "source": "#1431",
+  "why": "surface-modelling feature or proposal, not a failing solid operation"
+ },
+ {
+  "source": "#1437",
+  "why": "extrude join result beyond the sketch; needs the user's design (earlier features not given)"
+ },
+ {
+  "source": "#1466",
+  "why": "surface-modelling feature or proposal, not a failing solid operation"
+ },
+ {
+  "source": "#1508",
+  "why": "sketch projection of solid edges (sketch area), not a kernel failure"
+ },
+ {
+  "source": "#1531",
+  "why": "feature request (partial taper where the sides would cross); the refusal is intended; needs the user's plate"
+ },
+ {
+  "source": "#1603",
+  "why": "other area: sheet-metal"
+ },
+ {
+  "source": "#1737",
+  "why": "extrude join leaves a gap after a fillet; the base solid is only in a screenshot"
+ },
+ {
+  "source": "#1788",
+  "why": "extra seam edge from a mirrored sketch, marked possibly intentional; no dimensions"
+ },
+ {
+  "source": "#1891",
+  "why": "profiling or tracing tooling, not geometry"
+ },
+ {
+  "source": "#1967",
+  "why": "other area: sweeps (loft reported as not working, no details)"
+ },
+ {
+  "source": "#1995",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#2064",
+  "why": "performance only, no wrong result"
+ },
+ {
+  "source": "#2074",
+  "why": "part library or fastener fill feature, not a failing operation"
+ },
+ {
+  "source": "#2274",
+  "why": "part library or fastener fill feature, not a failing operation"
+ },
+ {
+  "source": "#2343",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#2428",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#2509",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#2545",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#2572",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#2768",
+  "why": "documentation"
+ },
+ {
+  "source": "#2876",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#2968",
+  "why": "UI or customization PR, not geometry"
+ },
+ {
+  "source": "#3013",
+  "why": "performance only, no wrong result"
+ },
+ {
+  "source": "#3104",
+  "why": "performance only, no wrong result"
+ },
+ {
+  "source": "#3126",
+  "why": "sphere placement UI (centre taken from the picked point); the cut itself is not wrong"
+ },
+ {
+  "source": "#3134",
+  "why": "performance only, no wrong result"
+ },
+ {
+  "source": "#3226",
+  "why": "test layout housekeeping"
+ },
+ {
+  "source": "#3268",
+  "why": "profiling or tracing tooling, not geometry"
+ },
+ {
+  "source": "#3272",
+  "why": "fix for #2970 (bore guard in a two-profile join): geometry only in the user's design, no dimensions"
+ },
+ {
+  "source": "#3450",
+  "why": "solid.move pivot/point-to-point selection UI, no geometry failure"
+ },
+ {
+  "source": "#3486",
+  "why": "solid.move pivot/point-to-point selection UI, no geometry failure"
+ },
+ {
+  "source": "#3517",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#3525",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#3551",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#3569",
+  "why": "UI or customization PR, not geometry"
+ },
+ {
+  "source": "#3592",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#3594",
+  "why": "feature (wrap sketches onto cylinders), not a failing operation"
+ },
+ {
+  "source": "#3756",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#3900",
+  "why": "transform input validation (refuses non-affine matrices); not a geometry failure"
+ },
+ {
+  "source": "#3907",
+  "why": "performance only, no wrong result"
+ },
+ {
+  "source": "#3976",
+  "why": "refactor or rollup PR with no behaviour change to grade"
+ },
+ {
+  "source": "#3992",
+  "why": "kernel evaluation or tracking, not a geometry failure"
+ },
+ {
+  "source": "#3997",
+  "why": "kernel evaluation or tracking, not a geometry failure"
+ },
+ {
+  "source": "#4002",
+  "why": "construct.plane.three_points selection UI"
+ },
+ {
+  "source": "#4012",
+  "why": "kernel evaluation or tracking, not a geometry failure"
+ },
+ {
+  "source": "#4024",
+  "why": "fill tolerance check in geom, no geometry case"
+ },
+ {
+  "source": "#4148",
+  "why": "revolve join 'no result' on a sketch not given in the report; needs the user's design"
+ }
+]

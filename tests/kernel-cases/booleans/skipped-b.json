@@ -1,0 +1,338 @@
+[
+ {
+  "source": "#2541",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2543",
+  "why": "other area: import (mesh body from an imported file: a boolean needs a solid body, by design)"
+ },
+ {
+  "source": "#2551",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2553",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2565",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2566",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2574",
+  "why": "feature request, not a wrong result (a hexagonal or skip-instance pattern option)"
+ },
+ {
+  "source": "#2581",
+  "why": "UI only: no geometry"
+ },
+ {
+  "source": "#2586",
+  "why": "needs the user's design: draft refused on faces next to the drafted walls, only the command is reported"
+ },
+ {
+  "source": "#2599",
+  "why": "other area: assemblies (joint.as_built does not follow a parameter change), not kernel geometry"
+ },
+ {
+  "source": "#2602",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2610",
+  "why": "no description, only a screenshot or nothing: no geometry to rebuild"
+ },
+ {
+  "source": "#2696",
+  "why": "CI/test infrastructure only (xtask skips the nightly boolean_props tests), no geometry"
+ },
+ {
+  "source": "#2740",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2750",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2765",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2766",
+  "why": "needs the user's design: draft refused on faces next to the drafted walls, only the command is reported"
+ },
+ {
+  "source": "#2770",
+  "why": "needs the user's design (a 22 KB Gridfinity base shared with the author's permission); not rebuilt or committed"
+ },
+ {
+  "source": "#2783",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2798",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2799",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2803",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2843",
+  "why": "UI only: no geometry"
+ },
+ {
+  "source": "#2873",
+  "why": "UI/feature request: press-pull on a round face has no selection path; no wrong geometry to grade"
+ },
+ {
+  "source": "#2882",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2885",
+  "why": "UI: the pattern got a construction axis name the command does not accept; no wrong geometry"
+ },
+ {
+  "source": "#2887",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2890",
+  "why": "UI only: no geometry"
+ },
+ {
+  "source": "#2911",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2941",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2946",
+  "why": "other area: import (B-spline patch and loosely-fitted imported faces; no small public geometry rebuilt)"
+ },
+ {
+  "source": "#2949",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2950",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2959",
+  "why": "UI: selecting the whole sketch line (with its fillet) as a split tool; no wrong geometry"
+ },
+ {
+  "source": "#2965",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2970",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2973",
+  "why": "no description, only a screenshot or nothing: no geometry to rebuild"
+ },
+ {
+  "source": "#2979",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#2997",
+  "why": "no description, only a screenshot or nothing: no geometry to rebuild"
+ },
+ {
+  "source": "#3007",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3019",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3026",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3034",
+  "why": "UI only: no geometry"
+ },
+ {
+  "source": "#3035",
+  "why": "perf only: the motivating design is private, no wrong result"
+ },
+ {
+  "source": "#3038",
+  "why": "other area: import (mesh body from an imported file: a boolean needs a solid body, by design)"
+ },
+ {
+  "source": "#3042",
+  "why": "UI: no visual feedback when a patterned hole misses the surface; no geometry"
+ },
+ {
+  "source": "#3050",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3051",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3056",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3079",
+  "why": "needs the user's design: the sketch loop is not closed, no geometry to rebuild"
+ },
+ {
+  "source": "#3090",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3100",
+  "why": "other area: import (split of a body imported from STEP; the file is not available)"
+ },
+ {
+  "source": "#3101",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3112",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3117",
+  "why": "no description, only a screenshot or nothing: no geometry to rebuild"
+ },
+ {
+  "source": "#3118",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3130",
+  "why": "other area: threads"
+ },
+ {
+  "source": "#3132",
+  "why": "feature request (pick target bodies in Edit Extrude); no wrong result"
+ },
+ {
+  "source": "#3138",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3147",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3149",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3157",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3176",
+  "why": "needs the user's design: draft refused on faces next to the drafted walls, only the command is reported"
+ },
+ {
+  "source": "#3185",
+  "why": "other area: crashes (a boolean retry hang on a broken candidate; the design from the report is private)"
+ },
+ {
+  "source": "#3192",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3193",
+  "why": "no description, only a screenshot or nothing: no geometry to rebuild"
+ },
+ {
+  "source": "#3194",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3205",
+  "why": "UI only: no geometry"
+ },
+ {
+  "source": "#3211",
+  "why": "no description, only a screenshot or nothing: no geometry to rebuild"
+ },
+ {
+  "source": "#3212",
+  "why": "other area: import (an imported assembly, nested shells)"
+ },
+ {
+  "source": "#3227",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3232",
+  "why": "no description or geometry: only that an intersect does not seem to work"
+ },
+ {
+  "source": "#3247",
+  "why": "feature request, not a wrong result (a hexagonal or skip-instance pattern option)"
+ },
+ {
+  "source": "#3251",
+  "why": "other area: import (mesh body from an imported file: a boolean needs a solid body, by design)"
+ },
+ {
+  "source": "#3255",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3271",
+  "why": "UI only: no geometry"
+ },
+ {
+  "source": "#3276",
+  "why": "other area: fillets (the failing step is the fillet/chamfer after three extrudes; no dimensions given)"
+ },
+ {
+  "source": "#3279",
+  "why": "sketch pattern editing (sketch.pattern.circular), not solid geometry"
+ },
+ {
+  "source": "#3293",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3302",
+  "why": "UI: the pattern was started with nothing selected; no geometry"
+ },
+ {
+  "source": "#3324",
+  "why": "other area: sheet metal (flat pattern and DXF ignore non-sheet features)"
+ },
+ {
+  "source": "#3374",
+  "why": "other area: import (mesh body from an imported file: a boolean needs a solid body, by design)"
+ },
+ {
+  "source": "#3396",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ },
+ {
+  "source": "#3403",
+  "why": "needs the user's design: only the failing command's parameters are reported, no geometry to rebuild"
+ }
+]

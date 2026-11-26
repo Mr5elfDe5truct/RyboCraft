@@ -1,0 +1,23 @@
+[package]
+name = "rybocraft-smlib"
+description = "RyboCraft: the B-rep kernel, rybocore (Mr5elfDe5truct/RyboCraft, the Rust port of NVIDIA's SMLib, Apache-2.0), behind a safe wrapper"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+rybocore-record = { workspace = true }
+rybocore-ops = { workspace = true }
+log = { workspace = true }
+serde_json = { workspace = true }
+rybocraft-geom = { workspace = true }
+rybocraft-profile = { workspace = true }
+rybocore = { workspace = true }
+
+[dev-dependencies]
+rybocraft-profile = { workspace = true, features = ["enabled"] }
+flate2 = "1.1"

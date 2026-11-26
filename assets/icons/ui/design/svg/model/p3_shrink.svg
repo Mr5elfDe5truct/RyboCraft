@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Shrinkage Compensation</title>
+  <path d="M18 18L46 18L46 46L18 46Z" fill="#b9ddf8"/>
+  <path d="M18 18L46 18L46 46L18 46Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M6 6L13 13" fill="none" stroke="#236ead" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M17 17L7.1 14.17L14.17 7.1Z" fill="#236ead"/>
+  <path d="M58 6L51 13" fill="none" stroke="#236ead" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M47 17L49.83 7.1L56.9 14.17Z" fill="#236ead"/>
+  <path d="M6 58L13 51" fill="none" stroke="#236ead" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M17 47L14.17 56.9L7.1 49.83Z" fill="#236ead"/>
+  <path d="M58 58L51 51" fill="none" stroke="#236ead" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M47 47L56.9 49.83L49.83 56.9Z" fill="#236ead"/>
+</svg>

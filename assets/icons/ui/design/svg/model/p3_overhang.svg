@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Overhangs</title>
+  <path d="M5 53L59 53L59 59L5 59Z" fill="#8e9faf"/>
+  <path d="M5 53L59 53L59 59L5 59Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M8 10L24 10L24 53L8 53Z" fill="#b8c3cf"/>
+  <path d="M8 10L24 10L24 53L8 53Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M24 10L58 10L58 20L24 36Z" fill="#e2e8ef"/>
+  <path d="M24 10L58 10L58 20L24 36Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 38L58 23" fill="none" stroke="#236ead" stroke-width="4.25" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

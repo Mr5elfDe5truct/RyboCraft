@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Layer Preview</title>
+  <path d="M32 58L6 49L32 40L58 49Z" fill="#8e9faf"/>
+  <path d="M32 58L6 49L32 40L58 49Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 48L6 39L32 30L58 39Z" fill="#b8c3cf"/>
+  <path d="M32 48L6 39L32 30L58 39Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 38L6 29L32 20L58 29Z" fill="#328bd3"/>
+  <path d="M32 38L6 29L32 20L58 29Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 26L6 17L32 8L58 17Z" fill="#b9ddf8"/>
+  <path d="M32 26L6 17L32 8L58 17Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

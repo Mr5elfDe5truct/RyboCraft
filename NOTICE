@@ -1,0 +1,27 @@
+RyboCraft
+Copyright (c) 2026 R.G. Studios (Ryan B. Gyles).
+Licensed under the MIT License or the Apache License, Version 2.0, at your option
+(LICENSE-MIT, LICENSE-APACHE).
+
+Required notices
+
+RyboCraft includes and modifies code first published as SolidCraft,
+Copyright (c) 2026 SolidCraft contributors, under the MIT License or the Apache License,
+Version 2.0. R.G. Studios has modified it.
+
+The geometry kernel in rybocore/ includes code first published as solidcore,
+Copyright (c) 2026 The solidcore contributors, a Rust port of the SMLib and SM_API components of
+USD BRep, Copyright (c) 2020-2026 NVIDIA CORPORATION & AFFILIATES, both under the Apache License,
+Version 2.0. Their notices are in rybocore/NOTICE and rybocore/ATTRIBUTION.md.
+
+Some packaging and window code is adapted from PhotoCraft, VectorCraft, CADCraft and GridCraft
+(MIT OR Apache-2.0), and crates/render/src/lighting/hdr.rs adapts code from image 0.25.10
+(MIT OR Apache-2.0). ATTRIBUTION.md lists the files.
+
+Software dependencies are listed in Cargo.lock; their licences are in THIRD-PARTY-LICENSES.txt,
+which the programs also carry (Help > About > Licences, `rybocraft-cli licences`). Bundled fonts
+are under the SIL Open Font License 1.1, and other third-party assets under the licences
+ATTRIBUTION.md gives for each file.
+
+Product names such as Fusion, SolidWorks, Onshape and Blender are trademarks of their owners and
+appear only to describe compatibility. RyboCraft is not affiliated with or endorsed by them.

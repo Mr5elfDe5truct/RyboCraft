@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Lattice Fill</title>
+  <path d="M6 6L58 6L58 58L6 58Z" fill="#e2e8ef"/>
+  <path d="M6 6L58 6L58 58L6 58Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M6 18L8.17 22.24L10.33 24L12.5 22.24L14.67 18L16.83 13.76L19 12L21.17 13.76L23.33 18L25.5 22.24L27.67 24L29.83 22.24L32 18L34.17 13.76L36.33 12L38.5 13.76L40.67 18L42.83 22.24L45 24L47.17 22.24L49.33 18L51.5 13.76L53.67 12L55.83 13.76L58 18" fill="none" stroke="#328bd3" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M6 32L8.17 36.24L10.33 38L12.5 36.24L14.67 32L16.83 27.76L19 26L21.17 27.76L23.33 32L25.5 36.24L27.67 38L29.83 36.24L32 32L34.17 27.76L36.33 26L38.5 27.76L40.67 32L42.83 36.24L45 38L47.17 36.24L49.33 32L51.5 27.76L53.67 26L55.83 27.76L58 32" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M6 46L8.17 50.24L10.33 52L12.5 50.24L14.67 46L16.83 41.76L19 40L21.17 41.76L23.33 46L25.5 50.24L27.67 52L29.83 50.24L32 46L34.17 41.76L36.33 40L38.5 41.76L40.67 46L42.83 50.24L45 52L47.17 50.24L49.33 46L51.5 41.76L53.67 40L55.83 41.76L58 46" fill="none" stroke="#328bd3" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

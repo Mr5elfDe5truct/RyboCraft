@@ -1,0 +1,27 @@
+[package]
+name = "rybocraft-doc"
+description = "RyboCraft document model: parameters and expressions, sketches and features on a parametric timeline, incremental evaluation"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+rybocraft-viewport = { workspace = true }
+rybocore-record = { workspace = true }
+rybocore-tess = { workspace = true }
+rybocraft-color = { workspace = true }
+rybocraft-geom = { workspace = true }
+rybocraft-sketch = { workspace = true }
+rybocraft-kernel = { workspace = true }
+rybocraft-profile = { workspace = true }
+rybocraft-render = { workspace = true }
+rybocraft-derive = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true, features = ["raw_value"] }
+thiserror = { workspace = true }
+log = { workspace = true }
+sha2 = { workspace = true }
+web-time = { workspace = true }

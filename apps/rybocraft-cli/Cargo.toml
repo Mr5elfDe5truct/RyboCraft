@@ -1,0 +1,38 @@
+[package]
+name = "rybocraft-cli"
+description = "RyboCraft headless CLI: run command scripts, measure, export, render snapshots, replay oracle recipes"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+default-run = "rybocraft-cli"
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "rybocraft-cli"
+path = "src/main.rs"
+
+[features]
+default = ["raytrace-cpu", "profile"]
+bundled-render-library = ["rybocraft-engine/bundled-render-library"]
+raytrace-cpu = ["rybocraft-engine/raytrace-cpu"]
+# The profiler, compiled in so any build can say where its time goes (`--profile`,
+# RYBOCRAFT_PROFILE=1); it records nothing until asked.
+profile = ["rybocraft-engine/profile"]
+
+[dependencies]
+rybocraft-viewport-gpu = { workspace = true }
+rybocraft-viewport = { workspace = true }
+rybocore-record = { workspace = true }
+rybocraft-engine = { workspace = true }
+rybocraft-gpu = { workspace = true }
+rybocraft-mcp = { workspace = true }
+log = { workspace = true }
+serde_json = { workspace = true }
+
+[dev-dependencies]
+# Snapshot tests decode the pictures to compare them with a tolerance.
+image = { workspace = true }
+# Tests measure meshes at their own tolerances.
+rybocraft-kernel = { workspace = true }

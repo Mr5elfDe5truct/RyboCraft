@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Grid Bin</title>
+  <path d="M8 8L56 8L56 48L8 48Z" fill="#b9ddf8"/>
+  <path d="M8 8L56 8L56 48L8 48Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M14 8L30 8L30 40L14 40Z" fill="#e2e8ef"/>
+  <path d="M14 8L30 8L30 40L14 40Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M34 8L50 8L50 40L34 40Z" fill="#e2e8ef"/>
+  <path d="M34 8L50 8L50 40L34 40Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M10 48L30 48L27 58L13 58Z" fill="#8e9faf"/>
+  <path d="M10 48L30 48L27 58L13 58Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M34 48L54 48L51 58L37 58Z" fill="#8e9faf"/>
+  <path d="M34 48L54 48L51 58L37 58Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

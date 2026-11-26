@@ -1,0 +1,22 @@
+[package]
+name = "diagnostics"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+publish = false
+description = "rybocore-diag: a shaded picture and a tolerance report of one .smb body, for diagnosing a kernel case"
+
+[[bin]]
+name = "rybocore-diag"
+path = "src/main.rs"
+
+[dependencies]
+rybocore = { path = "../rybocore" }
+rybocore-convert = { path = "../rybocore-convert" }
+rybocore-tess = { path = "../rybocore-tess" }
+# The PNG's zlib stream.
+miniz_oxide = "0.9"
+serde_json = "1"
+
+[lints]
+workspace = true

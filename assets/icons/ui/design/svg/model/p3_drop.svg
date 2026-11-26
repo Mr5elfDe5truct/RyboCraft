@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Drop to Bed</title>
+  <path d="M5 53L59 53L59 59L5 59Z" fill="#8e9faf"/>
+  <path d="M5 53L59 53L59 59L5 59Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M18 6L46 6L46 28L18 28Z" fill="#328bd3"/>
+  <path d="M18 6L46 6L46 28L18 28Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 32L32 42" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 51L27 42L37 42Z" fill="#236ead"/>
+</svg>

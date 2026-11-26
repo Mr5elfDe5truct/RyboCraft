@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Teardrop Hole</title>
+  <path d="M5 5L59 5L59 59L5 59Z" fill="#b8c3cf"/>
+  <path d="M5 5L59 5L59 59L5 59Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 9L43.31 24.69L45.3 27.11L46.78 29.88L47.69 32.88L48 36L47.69 39.12L46.78 42.12L45.3 44.89L43.31 47.31L40.89 49.3L38.12 50.78L35.12 51.69L32 52L28.88 51.69L25.88 50.78L23.11 49.3L20.69 47.31L18.7 44.89L17.22 42.12L16.31 39.12L16 36L16.31 32.88L17.22 29.88L18.7 27.11L20.69 24.69Z" fill="#b9ddf8"/>
+  <path d="M32 9L43.31 24.69L45.3 27.11L46.78 29.88L47.69 32.88L48 36L47.69 39.12L46.78 42.12L45.3 44.89L43.31 47.31L40.89 49.3L38.12 50.78L35.12 51.69L32 52L28.88 51.69L25.88 50.78L23.11 49.3L20.69 47.31L18.7 44.89L17.22 42.12L16.31 39.12L16 36L16.31 32.88L17.22 29.88L18.7 27.11L20.69 24.69Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

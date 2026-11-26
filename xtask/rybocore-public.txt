@@ -1,0 +1,7 @@
+# The rybocore crates RyboCraft may use directly, one a line (rybocore docs/layers.md §1).
+# `cargo xtask layers` reads this list; any other rybocore crate needs a line in
+# xtask/rybocore-seam.txt. After vendoring, rybocore owns the list as
+# rybocore/public-crates.txt (its CODEOWNERS), and the check reads that copy first.
+rybocore-ops
+rybocore-tess
+rybocore-record

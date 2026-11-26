@@ -1,0 +1,146 @@
+[
+ {
+  "source": "#4260",
+  "why": "UI only: count fields without step arrows"
+ },
+ {
+  "source": "#4274",
+  "why": "UI only: image canvas in sketches (feature request)"
+ },
+ {
+  "source": "#4451",
+  "why": "no kernel geometry: OBJ export writes unshared vertices (file export)"
+ },
+ {
+  "source": "#4483",
+  "why": "no reproduction: operations on a user's 51-body STEP assembly (mostly working on 0.20.0)"
+ },
+ {
+  "source": "#4485",
+  "why": "no geometry: the report arrived empty"
+ },
+ {
+  "source": "#4500",
+  "why": "no geometry: the report arrived empty"
+ },
+ {
+  "source": "#4552",
+  "why": "no reproduction: a user's STEP wheels import with holes (the STEP is the reporter's)"
+ },
+ {
+  "source": "#4553",
+  "why": "no geometry: FreeCAD history import (feature request)"
+ },
+ {
+  "source": "#4554",
+  "why": "no geometry: History hover stalls on large assemblies (render)"
+ },
+ {
+  "source": "#4560",
+  "why": "no geometry: Convert Mesh's 50 000 triangle limit, as designed (dup of #346)"
+ },
+ {
+  "source": "#4564",
+  "why": "no geometry: Convert Mesh takes constant-section prisms only, as designed (dup of #358)"
+ },
+ {
+  "source": "#4586",
+  "why": "no geometry: Convert Mesh takes constant-section prisms only, as designed (dup of #358)"
+ },
+ {
+  "source": "#4609",
+  "why": "no geometry: Convert Mesh needs the mesh's component active (document)"
+ },
+ {
+  "source": "#4616",
+  "why": "no geometry: viewport memory for repeated placements (render)"
+ },
+ {
+  "source": "#4632",
+  "why": "no geometry: Convert Mesh takes constant-section prisms only, as designed (dup of #358)"
+ },
+ {
+  "source": "#4633",
+  "why": "no geometry: Convert Mesh run without a mesh body selected (user error)"
+ },
+ {
+  "source": "#4637",
+  "why": "no geometry: viewport mesh indexing (render)"
+ },
+ {
+  "source": "#4646",
+  "why": "no geometry: viewport culling of instanced placements (render)"
+ },
+ {
+  "source": "#4662",
+  "why": "no geometry: mesh body size measured every frame (performance)"
+ },
+ {
+  "source": "#4668",
+  "why": "no geometry: hover highlight rebuilt per pointer move (render)"
+ },
+ {
+  "source": "#4673",
+  "why": "no geometry: undo history copies imported meshes (memory)"
+ },
+ {
+  "source": "#4676",
+  "why": "no kernel geometry: Insert STEP ignores its matrix parameter (placement)"
+ },
+ {
+  "source": "#4679",
+  "why": "no geometry: welding a large mesh for display stalls a frame (render)"
+ },
+ {
+  "source": "#4700",
+  "why": "no geometry: Convert Mesh takes constant-section prisms only, as designed (dup of #358)"
+ },
+ {
+  "source": "#4722",
+  "why": "no geometry: a freeform STL refused by Convert Mesh, as designed (dup of #358 and #4609)"
+ },
+ {
+  "source": "#4724",
+  "why": "no geometry: display levels of detail (render)"
+ },
+ {
+  "source": "#4768",
+  "why": "no kernel geometry: moving repeated STEP placements moves the shared definition (placement)"
+ },
+ {
+  "source": "#4814",
+  "why": "no geometry: Convert Mesh needs the mesh's component active (dup of #4609)"
+ },
+ {
+  "source": "#4898",
+  "why": "no geometry: SVG curves offset as a mixed chain and moved (sketch, dup of #2149)"
+ },
+ {
+  "source": "#4918",
+  "why": "no geometry: Convert Mesh takes constant-section prisms only (dup of #4586)"
+ },
+ {
+  "source": "#5090",
+  "why": "no kernel geometry: an open mesh body measures a negative volume (mesh measure)"
+ },
+ {
+  "source": "#5091",
+  "why": "no geometry: KiCad board import (feature request)"
+ },
+ {
+  "source": "#5202",
+  "why": "UI only: the history marker on a hidden sketch"
+ },
+ {
+  "source": "#5210",
+  "why": "render: web import paths that don't draw STEP bodies"
+ },
+ {
+  "source": "#5293",
+  "why": "no geometry: Convert Mesh takes constant-section prisms only, as designed (dup of #358)"
+ },
+ {
+  "source": "#5321",
+  "why": "no kernel geometry: two DXF writers (file export)"
+ }
+]

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Arrange on Bed</title>
+  <path d="M5 5L59 5L59 59L5 59Z" fill="#e2e8ef"/>
+  <path d="M5 5L59 5L59 59L5 59Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M11 11L30 11L30 28L11 28Z" fill="#328bd3"/>
+  <path d="M11 11L30 11L30 28L11 28Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M35 11L53 11L53 40L35 40Z" fill="#b8c3cf"/>
+  <path d="M35 11L53 11L53 40L35 40Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M11 33L30 33L30 53L11 53Z" fill="#b8c3cf"/>
+  <path d="M11 33L30 33L30 53L11 53Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M35 45L53 45L53 53L35 53Z" fill="#b9ddf8"/>
+  <path d="M35 45L53 45L53 53L35 53Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+[package]
+name = "rybocraft-mcp"
+description = "RyboCraft MCP server: JSON-RPC 2.0 over stdio, driving a headless session or the running app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+rybocraft-viewport-gpu = { workspace = true }
+rybocraft-viewport = { workspace = true }
+rybocraft-engine = { workspace = true }
+rybocraft-control = { workspace = true }
+rybocraft-mcp-server = { workspace = true }
+serde_json = { workspace = true }
+
+[dev-dependencies]
+# The renderer `rybocraft-cli mcp` installs, so the tests' screenshots are drawn as the server's.
+rybocraft-gpu = { workspace = true }
+# Synthetic reference pictures for the compare_picture test.
+image = { workspace = true }

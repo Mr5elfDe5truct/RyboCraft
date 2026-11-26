@@ -1,0 +1,17 @@
+[package]
+name = "step-brep"
+description = "Build rybocore B-rep bodies from the neutral step-import model"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+publish = false
+
+[dependencies]
+rybocore = { path = "../rybocore" }
+step-import = { path = "../step-import" }
+
+[dev-dependencies]
+step-export = { path = "../step-export" }
+
+[lints]
+workspace = true

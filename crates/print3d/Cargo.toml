@@ -1,0 +1,15 @@
+[package]
+name = "rybocraft-print3d"
+description = "RyboCraft 3D printing: printability analysis, orientation, slicing, supports, lattices and fit tables"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+rybocore-record = { workspace = true }
+rybocraft-geom = { workspace = true }
+rayon = { workspace = true }
+serde = { workspace = true }

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Calibration Part</title>
+  <path d="M32 58L9.38 45L9.38 19L32 32Z" fill="#b8c3cf"/>
+  <path d="M32 58L9.38 45L9.38 19L32 32Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 58L54.62 45L54.62 19L32 32Z" fill="#8e9faf"/>
+  <path d="M32 58L54.62 45L54.62 19L32 32Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 32L9.38 19L32 6L54.62 19Z" fill="#b9ddf8"/>
+  <path d="M32 32L9.38 19L32 6L54.62 19Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M14 30L14 24" fill="none" stroke="#236ead" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 24L32 18" fill="none" stroke="#236ead" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

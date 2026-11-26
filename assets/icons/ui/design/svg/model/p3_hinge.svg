@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Print-in-Place Hinge</title>
+  <path d="M5 10L28 10L28 54L5 54Z" fill="#b8c3cf"/>
+  <path d="M5 10L28 10L28 54L5 54Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M36 10L59 10L59 54L36 54Z" fill="#e2e8ef"/>
+  <path d="M36 10L59 10L59 54L36 54Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 10L38 10L38 24L26 24Z" fill="#328bd3"/>
+  <path d="M26 10L38 10L38 24L26 24Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 25L38 25L38 39L26 39Z" fill="#b9ddf8"/>
+  <path d="M26 25L38 25L38 39L26 39Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 40L38 40L38 54L26 54Z" fill="#328bd3"/>
+  <path d="M26 40L38 40L38 54L26 54Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

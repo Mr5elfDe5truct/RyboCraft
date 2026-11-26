@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Wall Hook</title>
+  <path d="M8 6L18 6L18 58L8 58Z" fill="#b8c3cf"/>
+  <path d="M8 6L18 6L18 58L8 58Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M18 38L44 38L44 24L54 24L54 48L18 48Z" fill="#328bd3"/>
+  <path d="M18 38L44 38L44 24L54 24L54 48L18 48Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M15.4 15L15.35 15.47L15.22 15.92L15 16.33L14.7 16.7L14.33 17L13.92 17.22L13.47 17.35L13 17.4L12.53 17.35L12.08 17.22L11.67 17L11.3 16.7L11 16.33L10.78 15.92L10.65 15.47L10.6 15L10.65 14.53L10.78 14.08L11 13.67L11.3 13.3L11.67 13L12.08 12.78L12.53 12.65L13 12.6L13.47 12.65L13.92 12.78L14.33 13L14.7 13.3L15 13.67L15.22 14.08L15.35 14.53Z" fill="#e2e8ef"/>
+  <path d="M15.4 15L15.35 15.47L15.22 15.92L15 16.33L14.7 16.7L14.33 17L13.92 17.22L13.47 17.35L13 17.4L12.53 17.35L12.08 17.22L11.67 17L11.3 16.7L11 16.33L10.78 15.92L10.65 15.47L10.6 15L10.65 14.53L10.78 14.08L11 13.67L11.3 13.3L11.67 13L12.08 12.78L12.53 12.65L13 12.6L13.47 12.65L13.92 12.78L14.33 13L14.7 13.3L15 13.67L15.22 14.08L15.35 14.53Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

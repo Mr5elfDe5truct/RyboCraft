@@ -1,0 +1,32 @@
+{
+  "en": {
+    "ui.agent_chat_state_no_design": "No design access",
+    "ui.agent_chat_no_design_hint": "The agent runs without RyboCraft's tools, so it can't read or change the design: rybocraft-cli was not found next to the app. Install RyboCraft with rybocraft-cli beside it (on Windows, the MSI or the portable zip), or set RYBOCRAFT_CLI to its path, then connect again.",
+    "ui.agent_chat_tools_not_started": "The agent runs without RyboCraft's tools, so it can't read or change the design: rybocraft-cli was found, but its tools did not start (the error in the chat says why). Connect again; if it keeps happening, reinstall RyboCraft."
+  },
+  "ar": {
+    "ui.agent_chat_state_no_design": "لا وصول إلى التصميم",
+    "ui.agent_chat_no_design_hint": "يعمل الوكيل دون أدوات RyboCraft، لذا لا يستطيع قراءة التصميم أو تغييره: لم يُعثر على rybocraft-cli بجانب التطبيق. ثبّت RyboCraft مع rybocraft-cli بجانبه (في Windows: حزمة MSI أو ملف zip المحمول)، أو اضبط RYBOCRAFT_CLI على مساره، ثم اتصل مرة أخرى.",
+    "ui.agent_chat_tools_not_started": "يعمل الوكيل دون أدوات RyboCraft، لذا لا يستطيع قراءة التصميم أو تغييره: عُثر على rybocraft-cli، لكن أدواته لم تبدأ (رسالة الخطأ في المحادثة توضح السبب). اتصل مرة أخرى، وإذا تكرر ذلك فأعد تثبيت RyboCraft."
+  },
+  "he": {
+    "ui.agent_chat_state_no_design": "אין גישה לתכן",
+    "ui.agent_chat_no_design_hint": "הסוכן פועל בלי הכלים של RyboCraft, ולכן אינו יכול לקרוא או לשנות את התכן: rybocraft-cli לא נמצא ליד היישום. התקינו את RyboCraft עם rybocraft-cli לצידו (ב-Windows: קובץ ה-MSI או ה-zip הנייד), או הגדירו את RYBOCRAFT_CLI לנתיב שלו, ואז התחברו שוב.",
+    "ui.agent_chat_tools_not_started": "הסוכן פועל בלי הכלים של RyboCraft, ולכן אינו יכול לקרוא או לשנות את התכן: rybocraft-cli נמצא, אבל הכלים שלו לא הופעלו (הודעת השגיאה בצ'אט מסבירה למה). התחברו שוב, ואם זה חוזר, התקינו מחדש את RyboCraft."
+  },
+  "ja": {
+    "ui.agent_chat_state_no_design": "デザインにアクセスできません",
+    "ui.agent_chat_no_design_hint": "エージェントは RyboCraft のツールなしで動作しているため、デザインを読み取ることも変更することもできません。アプリの隣に rybocraft-cli が見つかりませんでした。rybocraft-cli が同梱された RyboCraft をインストールするか（Windows では MSI またはポータブル zip）、RYBOCRAFT_CLI にそのパスを設定してから、もう一度接続してください。",
+    "ui.agent_chat_tools_not_started": "エージェントは RyboCraft のツールなしで動作しているため、デザインを読み取ることも変更することもできません。rybocraft-cli は見つかりましたが、そのツールが起動しませんでした（理由はチャットのエラーに表示されています）。もう一度接続してください。繰り返し起きる場合は RyboCraft を再インストールしてください。"
+  },
+  "vi": {
+    "ui.agent_chat_state_no_design": "Không truy cập được thiết kế",
+    "ui.agent_chat_no_design_hint": "Tác tử đang chạy mà không có công cụ của RyboCraft, nên không thể đọc hay thay đổi thiết kế: không tìm thấy rybocraft-cli cạnh ứng dụng. Hãy cài RyboCraft có rybocraft-cli đi kèm (trên Windows: bản MSI hoặc bản zip di động), hoặc đặt RYBOCRAFT_CLI thành đường dẫn của nó, rồi kết nối lại.",
+    "ui.agent_chat_tools_not_started": "Tác tử đang chạy mà không có công cụ của RyboCraft, nên không thể đọc hay thay đổi thiết kế: đã tìm thấy rybocraft-cli, nhưng công cụ của nó không khởi động được (lỗi trong cuộc trò chuyện cho biết lý do). Hãy kết nối lại; nếu vẫn xảy ra, hãy cài lại RyboCraft."
+  },
+  "zh": {
+    "ui.agent_chat_state_no_design": "无法访问设计",
+    "ui.agent_chat_no_design_hint": "代理在没有 RyboCraft 工具的情况下运行，因此无法读取或修改设计：在应用旁边找不到 rybocraft-cli。请安装附带 rybocraft-cli 的 RyboCraft（在 Windows 上为 MSI 或便携版 zip），或将 RYBOCRAFT_CLI 设置为它的路径，然后重新连接。",
+    "ui.agent_chat_tools_not_started": "代理在没有 RyboCraft 工具的情况下运行，因此无法读取或修改设计：已找到 rybocraft-cli，但其工具未能启动（聊天中的错误信息说明了原因）。请重新连接；如果问题仍然出现，请重新安装 RyboCraft。"
+  }
+}

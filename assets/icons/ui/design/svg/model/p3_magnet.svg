@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Magnet Pocket</title>
+  <path d="M8 8L22 8L22 32L26 40L38 40L42 32L42 8L56 8L56 34L48 50L38 56L26 56L16 50L8 34Z" fill="#b8c3cf"/>
+  <path d="M8 8L22 8L22 32L26 40L38 40L42 32L42 8L56 8L56 34L48 50L38 56L26 56L16 50L8 34Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M8 8L22 8L22 19L8 19Z" fill="#328bd3"/>
+  <path d="M8 8L22 8L22 19L8 19Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M42 8L56 8L56 19L42 19Z" fill="#328bd3"/>
+  <path d="M42 8L56 8L56 19L42 19Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

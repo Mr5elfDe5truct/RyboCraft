@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Custom Supports</title>
+  <path d="M5 53L59 53L59 59L5 59Z" fill="#8e9faf"/>
+  <path d="M5 53L59 53L59 59L5 59Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M6 8L58 8L58 18L6 18Z" fill="#b8c3cf"/>
+  <path d="M6 8L58 8L58 18L6 18Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M6 18L16 18L16 53L6 53Z" fill="#b8c3cf"/>
+  <path d="M6 18L16 18L16 53L6 53Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 20L30 28L30 53L22 53L22 28Z" fill="#328bd3"/>
+  <path d="M26 20L30 28L30 53L22 53L22 28Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M39 20L43 28L43 53L35 53L35 28Z" fill="#328bd3"/>
+  <path d="M39 20L43 28L43 53L35 53L35 28Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M52 20L56 28L56 53L48 53L48 28Z" fill="#328bd3"/>
+  <path d="M52 20L56 28L56 53L48 53L48 28Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

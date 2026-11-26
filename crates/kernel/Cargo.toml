@@ -1,0 +1,31 @@
+[package]
+name = "rybocraft-kernel"
+description = "RyboCraft B-rep kernel boundary: solids, extrude/revolve/booleans/fillets, meshes, measures and STEP, behind our own API (implemented with rybocore)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+rybocore-record = { workspace = true }
+rybocore-ops = { workspace = true }
+rybocore-tess = { workspace = true }
+rybocraft-geom = { workspace = true }
+rybocraft-smlib = { workspace = true }
+rybocraft-profile = { workspace = true }
+rybocraft-step = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+spade = { workspace = true }
+web-time = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+rayon = { workspace = true }
+
+[dev-dependencies]
+rybocraft-profile = { workspace = true, features = ["enabled"] }
+proptest = { version = "1", default-features = false, features = ["std"] }

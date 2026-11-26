@@ -1,0 +1,22 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "$CASE/plate.rybocraft"
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "$CASE/plate.rybocraft",
+    "reuse": true,
+    "translate": [
+     0,
+     50,
+     0
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Print Setup</title>
+  <path d="M6 6L58 6L58 13L6 13Z" fill="#b8c3cf"/>
+  <path d="M6 6L58 6L58 13L6 13Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M6 13L12 13L12 56L6 56Z" fill="#b8c3cf"/>
+  <path d="M6 13L12 13L12 56L6 56Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M52 13L58 13L58 56L52 56Z" fill="#b8c3cf"/>
+  <path d="M52 13L58 13L58 56L52 56Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M6 53L58 53L58 59L6 59Z" fill="#8e9faf"/>
+  <path d="M6 53L58 53L58 59L6 59Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 16L38 16L38 25L32 31L26 25Z" fill="#e2e8ef"/>
+  <path d="M26 16L38 16L38 25L32 31L26 25Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M22 38L42 38L42 53L22 53Z" fill="#328bd3"/>
+  <path d="M22 38L42 38L42 53L22 53Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

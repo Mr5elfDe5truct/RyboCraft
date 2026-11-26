@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Grid Base Plate</title>
+  <path d="M5 5L59 5L59 59L5 59Z" fill="#b8c3cf"/>
+  <path d="M5 5L59 5L59 59L5 59Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M9 9L29 9L29 29L9 29Z" fill="#b9ddf8"/>
+  <path d="M9 9L29 9L29 29L9 29Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M9 35L29 35L29 55L9 55Z" fill="#b9ddf8"/>
+  <path d="M9 35L29 35L29 55L9 55Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M35 9L55 9L55 29L35 29Z" fill="#b9ddf8"/>
+  <path d="M35 9L55 9L55 29L35 29Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M35 35L55 35L55 55L35 55Z" fill="#b9ddf8"/>
+  <path d="M35 35L55 35L55 55L35 55Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

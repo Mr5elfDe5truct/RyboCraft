@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Printability Check</title>
+  <path d="M28 56L9.73 45.5L9.73 24.5L28 35Z" fill="#b8c3cf"/>
+  <path d="M28 56L9.73 45.5L9.73 24.5L28 35Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M28 56L46.27 45.5L46.27 24.5L28 35Z" fill="#8e9faf"/>
+  <path d="M28 56L46.27 45.5L46.27 24.5L28 35Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M28 35L9.73 24.5L28 14L46.27 24.5Z" fill="#e2e8ef"/>
+  <path d="M28 35L9.73 24.5L28 14L46.27 24.5Z" fill="none" stroke="#34465b" stroke-width="2.55" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M36 44L44 53L60 30" fill="none" stroke="#236ead" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
