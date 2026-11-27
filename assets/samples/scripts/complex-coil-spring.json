@@ -1,0 +1,5 @@
+{"commands": [
+  {"command": "parameters.change", "params": {"name": "turns", "expression": "8", "unit": ""}},
+  {"command": "parameters.change", "params": {"name": "pitch", "expression": "7 mm"}},
+  {"command": "solid.coil", "params": {"diameter": 30, "revolutions": "turns", "pitch": "pitch", "section_size": 3, "section": "circular", "body_name": "Spring", "name": "Coil"}}
+]}

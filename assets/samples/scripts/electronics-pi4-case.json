@@ -1,0 +1,387 @@
+{
+ "commands": [
+  {
+   "command": "parameters.change",
+   "params": {
+    "name": "clearance",
+    "expression": "1.5 mm",
+    "comment": "gap round the board (fixed in this sample's cut-outs)"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 92.0,
+    "width": 63.0,
+    "height": 26.0,
+    "body_name": "Case",
+    "name": "Case"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "edges": [
+     [
+      0,
+      0,
+      13.0
+     ],
+     [
+      92.0,
+      0,
+      13.0
+     ],
+     [
+      92.0,
+      63.0,
+      13.0
+     ],
+     [
+      0,
+      63.0,
+      13.0
+     ]
+    ],
+    "radius": "4 mm",
+    "name": "Corners"
+   }
+  },
+  {
+   "command": "solid.shell",
+   "params": {
+    "faces": [
+     [
+      46.0,
+      31.5,
+      26.0
+     ]
+    ],
+    "thickness": 2.0
+   }
+  },
+  {
+   "command": "plastic.boss",
+   "params": {
+    "position": [
+     7.0,
+     7.0,
+     2.0
+    ],
+    "diameter": "6 mm",
+    "height": "5.0 mm",
+    "hole_diameter": "2.5 mm"
+   }
+  },
+  {
+   "command": "plastic.boss",
+   "params": {
+    "position": [
+     65.0,
+     7.0,
+     2.0
+    ],
+    "diameter": "6 mm",
+    "height": "5.0 mm",
+    "hole_diameter": "2.5 mm"
+   }
+  },
+  {
+   "command": "plastic.boss",
+   "params": {
+    "position": [
+     7.0,
+     56.0,
+     2.0
+    ],
+    "diameter": "6 mm",
+    "height": "5.0 mm",
+    "hole_diameter": "2.5 mm"
+   }
+  },
+  {
+   "command": "plastic.boss",
+   "params": {
+    "position": [
+     65.0,
+     56.0,
+     2.0
+    ],
+    "diameter": "6 mm",
+    "height": "5.0 mm",
+    "hole_diameter": "2.5 mm"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 10,
+    "width": 4.0,
+    "height": 5,
+    "corner": [
+     9.7,
+     -1,
+     7.4
+    ],
+    "operation": "cut",
+    "name": "USB-C power"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 8,
+    "width": 4.0,
+    "height": 5,
+    "corner": [
+     25.5,
+     -1,
+     7.4
+    ],
+    "operation": "cut",
+    "name": "Micro HDMI 0"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 8,
+    "width": 4.0,
+    "height": 5,
+    "corner": [
+     39.0,
+     -1,
+     7.4
+    ],
+    "operation": "cut",
+    "name": "Micro HDMI 1"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 7.5,
+    "width": 4.0,
+    "height": 7.5,
+    "corner": [
+     53.25,
+     -1,
+     7.4
+    ],
+    "operation": "cut",
+    "name": "Audio"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 4.0,
+    "width": 15.0,
+    "height": 16.5,
+    "corner": [
+     89.0,
+     5.0,
+     7.4
+    ],
+    "operation": "cut",
+    "name": "USB 1"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 4.0,
+    "width": 15.0,
+    "height": 16.5,
+    "corner": [
+     89.0,
+     23.0,
+     7.4
+    ],
+    "operation": "cut",
+    "name": "USB 2"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 4.0,
+    "width": 17.0,
+    "height": 14.0,
+    "corner": [
+     89.0,
+     40.75,
+     7.4
+    ],
+    "operation": "cut",
+    "name": "Ethernet"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 4.0,
+    "width": 14,
+    "height": 4,
+    "corner": [
+     -1,
+     24.5,
+     3.5
+    ],
+    "operation": "cut",
+    "name": "microSD"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 92.0,
+    "width": 63.0,
+    "height": 2,
+    "corner": [
+     102.0,
+     0,
+     0
+    ],
+    "operation": "new",
+    "body_name": "Lid",
+    "name": "Lid"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "edges": [
+     [
+      102.0,
+      0,
+      1
+     ],
+     [
+      194.0,
+      0,
+      1
+     ],
+     [
+      194.0,
+      63.0,
+      1
+     ],
+     [
+      102.0,
+      63.0,
+      1
+     ]
+    ],
+    "radius": "4 mm",
+    "body": "Lid",
+    "name": "Lid corners"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 87.4,
+    "width": 58.4,
+    "height": 3,
+    "corner": [
+     104.3,
+     2.3,
+     2
+    ],
+    "operation": "join",
+    "targets": [
+     "Lid"
+    ],
+    "name": "Lip"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 83.4,
+    "width": 54.4,
+    "height": 3,
+    "corner": [
+     106.3,
+     4.3,
+     2
+    ],
+    "operation": "cut",
+    "targets": [
+     "Lid"
+    ],
+    "name": "Lip inside"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 52,
+    "width": 7,
+    "height": 6,
+    "corner": [
+     112.0,
+     3.5,
+     -1
+    ],
+    "operation": "cut",
+    "targets": [
+     "Lid"
+    ],
+    "name": "GPIO opening"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "Vent"
+   }
+  },
+  {
+   "command": "sketch.slot.center_to_center",
+   "params": {
+    "p0": [
+     120.0,
+     16
+    ],
+    "p1": [
+     120.0,
+     34
+    ],
+    "width": 3
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 2,
+    "operation": "cut",
+    "targets": [
+     "Lid"
+    ],
+    "name": "Vent"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "Vent"
+    ],
+    "dir1": [
+     1,
+     0,
+     0
+    ],
+    "count1": 8,
+    "spacing1": "6 mm"
+   }
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 76.6,
+    "width": 61.3,
+    "height": 3,
+    "body_name": "Arduino base",
+    "name": "Base"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "edges": [
+     [
+      0,
+      0,
+      1.5
+     ],
+     [
+      76.6,
+      0,
+      1.5
+     ],
+     [
+      76.6,
+      61.3,
+      1.5
+     ],
+     [
+      0,
+      61.3,
+      1.5
+     ]
+    ],
+    "radius": "4 mm",
+    "name": "Corners"
+   }
+  },
+  {
+   "command": "plastic.boss",
+   "params": {
+    "position": [
+     18.0,
+     6.5,
+     3
+    ],
+    "diameter": "6 mm",
+    "height": "5 mm",
+    "hole_diameter": "2.8 mm"
+   }
+  },
+  {
+   "command": "plastic.boss",
+   "params": {
+    "position": [
+     19.3,
+     54.7,
+     3
+    ],
+    "diameter": "6 mm",
+    "height": "5 mm",
+    "hole_diameter": "2.8 mm"
+   }
+  },
+  {
+   "command": "plastic.boss",
+   "params": {
+    "position": [
+     70.1,
+     11.6,
+     3
+    ],
+    "diameter": "6 mm",
+    "height": "5 mm",
+    "hole_diameter": "2.8 mm"
+   }
+  },
+  {
+   "command": "plastic.boss",
+   "params": {
+    "position": [
+     70.1,
+     39.5,
+     3
+    ],
+    "diameter": "6 mm",
+    "height": "5 mm",
+    "hole_diameter": "2.8 mm"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 76.6,
+    "width": 2,
+    "height": 6,
+    "corner": [
+     0,
+     0,
+     3
+    ],
+    "operation": "join",
+    "name": "Front rail"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "Window"
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     24,
+     14
+    ],
+    "p1": [
+     56,
+     44
+    ],
+    "radius": 4
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3,
+    "operation": "cut",
+    "name": "Window"
+   }
+  }
+ ]
+}

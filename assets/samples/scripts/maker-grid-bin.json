@@ -1,0 +1,8 @@
+{
+ "commands": [
+  {
+   "command": "print.grid_bin",
+   "params": {}
+  }
+ ]
+}

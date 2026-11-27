@@ -1,0 +1,13 @@
+{"commands": [
+  {"command": "sketch.create", "params": {"plane": "XY", "name": "Foot"}},
+  {"command": "sketch.polygon.inscribed", "params": {"center": [0, 0], "radius": 32, "sides": 8}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "sketch.create", "params": {"plane": "XY", "offset": "60 mm", "name": "Belly"}},
+  {"command": "sketch.polygon.inscribed", "params": {"center": [0, 0], "radius": 44, "sides": 8, "angle": 22.5}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "sketch.create", "params": {"plane": "XY", "offset": "120 mm", "name": "Mouth"}},
+  {"command": "sketch.polygon.inscribed", "params": {"center": [0, 0], "radius": 28, "sides": 8, "angle": 45}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "solid.loft", "params": {"sections": [{"sketch": "Foot"}, {"sketch": "Belly"}, {"sketch": "Mouth"}], "body_name": "Vase", "name": "Twist"}},
+  {"command": "solid.shell", "params": {"faces": [[0, 0, 120]], "thickness": 2}}
+]}

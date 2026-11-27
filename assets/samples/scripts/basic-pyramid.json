@@ -1,0 +1,10 @@
+{"commands": [
+  {"command": "parameters.change", "params": {"name": "height", "expression": "40 mm"}},
+  {"command": "sketch.create", "params": {"plane": "XY", "name": "Base"}},
+  {"command": "sketch.rectangle.center", "params": {"center": [0, 0], "corner": [25, 25]}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "sketch.create", "params": {"plane": "XY", "offset": "height", "name": "Apex"}},
+  {"command": "sketch.point", "params": {"point": [0, 0]}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "solid.loft", "params": {"sections": [{"sketch": "Base"}, {"sketch": "Apex", "point": "p1"}], "body_name": "Pyramid", "name": "Pyramid"}}
+]}

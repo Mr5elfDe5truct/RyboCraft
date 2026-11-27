@@ -81,6 +81,58 @@ Editable drawing code, native projects and shipped exports are collected under `
 | assets/samples/exports/3.png | RyboCraft contributors | original Plastic Enclosure from `crates/engine/src/sample.rs`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
 | assets/samples/exports/4.png | RyboCraft contributors | original Bolted Flange from `crates/engine/src/sample.rs`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
 | assets/samples/exports/5.png | RyboCraft contributors | original Vent Plate from `crates/engine/src/sample.rs`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/6.png | R.G. Studios | original Rounded Cube from `assets/samples/scripts/basic-cube.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/7.png | R.G. Studios | original Tube from `assets/samples/scripts/basic-tube.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/8.png | R.G. Studios | original Sphere from `assets/samples/scripts/basic-sphere.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/9.png | R.G. Studios | original Cone from `assets/samples/scripts/basic-cone.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/10.png | R.G. Studios | original Torus from `assets/samples/scripts/basic-torus.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/11.png | R.G. Studios | original Square Pyramid from `assets/samples/scripts/basic-pyramid.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/12.png | R.G. Studios | original Hexagonal Prism from `assets/samples/scripts/basic-hex-prism.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/13.png | R.G. Studios | original Twisted Vase from `assets/samples/scripts/complex-twisted-vase.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/14.png | R.G. Studios | original Coil Spring from `assets/samples/scripts/complex-coil-spring.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/15.png | R.G. Studios | original Threaded Bottle from `assets/samples/scripts/complex-bottle.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/16.png | R.G. Studios | original Knurled Knob from `assets/samples/scripts/complex-knurled-knob.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/17.png | R.G. Studios | original Swept Handle from `assets/samples/scripts/complex-swept-handle.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/18.png | R.G. Studios | original Wing Section from `assets/samples/scripts/complex-wing.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/19.png | R.G. Studios | original Raspberry Pi 3 Model B+ Case from `assets/samples/scripts/electronics-pi3b-plus-case.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/20.png | R.G. Studios | original Raspberry Pi 4 Model B Case from `assets/samples/scripts/electronics-pi4-case.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/21.png | R.G. Studios | original Raspberry Pi 5 Case from `assets/samples/scripts/electronics-pi5-case.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/22.png | R.G. Studios | original Arduino Uno Base from `assets/samples/scripts/electronics-arduino-uno-base.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/23.png | R.G. Studios | original Xbox Series X|S Controller Faceplate from `assets/samples/scripts/gaming-xbox-series-faceplate.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/24.png | R.G. Studios | original PS5 DualSense Controller Faceplate from `assets/samples/scripts/gaming-ps5-dualsense-faceplate.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/25.png | R.G. Studios | original Phone Stand from `assets/samples/scripts/maker-phone-stand.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/26.png | R.G. Studios | original Cable Clip from `assets/samples/scripts/maker-cable-clip.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/27.png | R.G. Studios | original Hex Bit Holder from `assets/samples/scripts/maker-hex-bit-holder.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/28.png | R.G. Studios | original SD Card Holder from `assets/samples/scripts/maker-sd-card-holder.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/29.png | R.G. Studios | original Calibration Cube from `assets/samples/scripts/maker-calibration-cube.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/30.png | R.G. Studios | original Wall Hook from `assets/samples/scripts/maker-wall-hook.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/exports/31.png | R.G. Studios | original Grid Bin from `assets/samples/scripts/maker-grid-bin.json`, exported by the RyboCraft thumbnail renderer | MIT OR Apache-2.0 |
+| assets/samples/scripts/basic-cube.json | R.G. Studios | original RyboCraft command script for the Rounded Cube sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/basic-tube.json | R.G. Studios | original RyboCraft command script for the Tube sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/basic-sphere.json | R.G. Studios | original RyboCraft command script for the Sphere sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/basic-cone.json | R.G. Studios | original RyboCraft command script for the Cone sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/basic-torus.json | R.G. Studios | original RyboCraft command script for the Torus sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/basic-pyramid.json | R.G. Studios | original RyboCraft command script for the Square Pyramid sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/basic-hex-prism.json | R.G. Studios | original RyboCraft command script for the Hexagonal Prism sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/complex-twisted-vase.json | R.G. Studios | original RyboCraft command script for the Twisted Vase sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/complex-coil-spring.json | R.G. Studios | original RyboCraft command script for the Coil Spring sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/complex-bottle.json | R.G. Studios | original RyboCraft command script for the Threaded Bottle sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/complex-knurled-knob.json | R.G. Studios | original RyboCraft command script for the Knurled Knob sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/complex-swept-handle.json | R.G. Studios | original RyboCraft command script for the Swept Handle sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/complex-wing.json | R.G. Studios | original RyboCraft command script for the Wing Section sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/electronics-pi3b-plus-case.json | R.G. Studios | original RyboCraft command script for the Raspberry Pi 3 Model B+ Case sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/electronics-pi4-case.json | R.G. Studios | original RyboCraft command script for the Raspberry Pi 4 Model B Case sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/electronics-pi5-case.json | R.G. Studios | original RyboCraft command script for the Raspberry Pi 5 Case sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/electronics-arduino-uno-base.json | R.G. Studios | original RyboCraft command script for the Arduino Uno Base sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/gaming-xbox-series-faceplate.json | R.G. Studios | original RyboCraft command script for the Xbox Series X|S Controller Faceplate sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/gaming-ps5-dualsense-faceplate.json | R.G. Studios | original RyboCraft command script for the PS5 DualSense Controller Faceplate sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/maker-phone-stand.json | R.G. Studios | original RyboCraft command script for the Phone Stand sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/maker-cable-clip.json | R.G. Studios | original RyboCraft command script for the Cable Clip sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/maker-hex-bit-holder.json | R.G. Studios | original RyboCraft command script for the Hex Bit Holder sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/maker-sd-card-holder.json | R.G. Studios | original RyboCraft command script for the SD Card Holder sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/maker-calibration-cube.json | R.G. Studios | original RyboCraft command script for the Calibration Cube sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/maker-wall-hook.json | R.G. Studios | original RyboCraft command script for the Wall Hook sample | MIT OR Apache-2.0 |
+| assets/samples/scripts/maker-grid-bin.json | R.G. Studios | original RyboCraft command script for the Grid Bin sample | MIT OR Apache-2.0 |
 | assets/samples/exports/scripts.json | RyboCraft contributors | SHA-256 fingerprints of the original sample scripts, generated with the shipped thumbnails | MIT OR Apache-2.0 |
 | docs/design/ux-redesign/model-floating.png | RyboCraft contributors | original UX mockup (Model tab, floating layout) rendered from an HTML mockup that uses the original Technical Accent icon set; no third-party artwork, and not a screenshot of any other CAD product | MIT OR Apache-2.0 |
 | docs/design/ux-redesign/model-compact.png | RyboCraft contributors | original UX mockup (Model tab, compact docked layout) rendered from an HTML mockup that uses the original Technical Accent icon set; no third-party artwork, and not a screenshot of any other CAD product | MIT OR Apache-2.0 |

@@ -1,0 +1,14 @@
+{"commands": [
+  {"command": "parameters.change", "params": {"name": "grooves", "expression": "24", "unit": ""}},
+  {"command": "solid.cylinder", "params": {"diameter": 40, "height": 18, "body_name": "Knob", "name": "Knob"}},
+  {"command": "sketch.create", "params": {"plane": "XY", "name": "Groove"}},
+  {"command": "sketch.circle.center", "params": {"center": [20, 0], "diameter": 4}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "solid.extrude", "params": {"distance": 18, "operation": "cut", "name": "Groove"}},
+  {"command": "solid.pattern.circular", "params": {"features": ["Groove"], "axis": "Z", "count": "grooves"}},
+  {"command": "sketch.create", "params": {"plane": "XY", "name": "Nut pocket"}},
+  {"command": "sketch.polygon.inscribed", "params": {"center": [0, 0], "radius": 7.5, "sides": 6}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "solid.extrude", "params": {"distance": 6, "operation": "cut", "name": "Nut pocket"}},
+  {"command": "solid.cylinder", "params": {"diameter": 8.5, "height": 18, "operation": "cut", "name": "Bolt hole"}}
+]}

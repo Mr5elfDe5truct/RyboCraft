@@ -1,0 +1,98 @@
+{
+ "commands": [
+  {
+   "command": "parameters.change",
+   "params": {
+    "name": "cable",
+    "expression": "6 mm",
+    "comment": "cable diameter"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "Clip"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": "cable + 4 mm"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": "cable"
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 8,
+    "profiles": [
+     0
+    ],
+    "body_name": "Cable clip",
+    "name": "Ring"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 8,
+    "width": 14,
+    "height": 3,
+    "corner": [
+     -4,
+     -18,
+     0
+    ],
+    "operation": "join",
+    "name": "Tab"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 3.5,
+    "height": 3,
+    "base": [
+     0,
+     -13,
+     0
+    ],
+    "operation": "cut",
+    "name": "Screw hole"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 3.5,
+    "width": 6,
+    "height": 8,
+    "corner": [
+     -1.75,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "name": "Opening"
+   }
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "commands": [
+  {
+   "command": "parameters.change",
+   "params": {
+    "name": "columns",
+    "expression": "6",
+    "unit": ""
+   }
+  },
+  {
+   "command": "parameters.change",
+   "params": {
+    "name": "rows",
+    "expression": "2",
+    "unit": ""
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 78,
+    "width": 30,
+    "height": 16,
+    "body_name": "Bit holder",
+    "name": "Block"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "edges": [
+     [
+      0,
+      0,
+      8
+     ],
+     [
+      78,
+      0,
+      8
+     ],
+     [
+      78,
+      30,
+      8
+     ],
+     [
+      0,
+      30,
+      8
+     ]
+    ],
+    "radius": "4 mm",
+    "name": "Corners"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": "16 mm",
+    "name": "Socket"
+   }
+  },
+  {
+   "command": "sketch.polygon.circumscribed",
+   "params": {
+    "center": [
+     9,
+     8
+    ],
+    "radius": 3.6,
+    "sides": 6
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 12,
+    "direction": "negative",
+    "operation": "cut",
+    "name": "Socket"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "Socket"
+    ],
+    "dir1": [
+     1,
+     0,
+     0
+    ],
+    "count1": "columns",
+    "spacing1": "12 mm",
+    "dir2": [
+     0,
+     1,
+     0
+    ],
+    "count2": "rows",
+    "spacing2": "14 mm"
+   }
+  }
+ ]
+}

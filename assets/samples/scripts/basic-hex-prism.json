@@ -1,0 +1,7 @@
+{"commands": [
+  {"command": "parameters.change", "params": {"name": "height", "expression": "25 mm"}},
+  {"command": "sketch.create", "params": {"plane": "XY", "name": "Hexagon"}},
+  {"command": "sketch.polygon.inscribed", "params": {"center": [0, 0], "radius": 20, "sides": 6}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "solid.extrude", "params": {"distance": "height", "body_name": "Hex Prism", "name": "Prism"}}
+]}

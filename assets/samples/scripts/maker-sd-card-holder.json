@@ -1,0 +1,110 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 70,
+    "width": 40,
+    "height": 14,
+    "body_name": "Card holder",
+    "name": "Block"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "edges": [
+     [
+      0,
+      0,
+      7
+     ],
+     [
+      70,
+      0,
+      7
+     ],
+     [
+      70,
+      40,
+      7
+     ],
+     [
+      0,
+      40,
+      7
+     ]
+    ],
+    "radius": "3 mm",
+    "name": "Corners"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 25,
+    "width": 2.6,
+    "height": 11,
+    "corner": [
+     5,
+     5,
+     3
+    ],
+    "operation": "cut",
+    "name": "SD slot"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "SD slot"
+    ],
+    "dir1": [
+     0,
+     1,
+     0
+    ],
+    "count1": 5,
+    "spacing1": "6 mm"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 11.6,
+    "width": 1.4,
+    "height": 9,
+    "corner": [
+     38,
+     5,
+     5
+    ],
+    "operation": "cut",
+    "name": "microSD slot"
+   }
+  },
+  {
+   "command": "solid.pattern.rectangular",
+   "params": {
+    "features": [
+     "microSD slot"
+    ],
+    "dir1": [
+     0,
+     1,
+     0
+    ],
+    "count1": 8,
+    "spacing1": "4 mm",
+    "dir2": [
+     1,
+     0,
+     0
+    ],
+    "count2": 2,
+    "spacing2": "15 mm"
+   }
+  }
+ ]
+}

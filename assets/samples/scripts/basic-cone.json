@@ -1,0 +1,6 @@
+{"commands": [
+  {"command": "parameters.change", "params": {"name": "base", "expression": "40 mm", "comment": "base diameter"}},
+  {"command": "parameters.change", "params": {"name": "top", "expression": "0 mm", "comment": "top diameter: above 0 makes a frustum"}},
+  {"command": "parameters.change", "params": {"name": "height", "expression": "50 mm"}},
+  {"command": "solid.cone", "params": {"diameter": "base", "top_diameter": "top", "height": "height", "body_name": "Cone"}}
+]}

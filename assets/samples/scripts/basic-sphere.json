@@ -1,0 +1,4 @@
+{"commands": [
+  {"command": "parameters.change", "params": {"name": "diameter", "expression": "40 mm"}},
+  {"command": "solid.sphere", "params": {"diameter": "diameter", "center": [0, 0, 20], "body_name": "Sphere"}}
+]}

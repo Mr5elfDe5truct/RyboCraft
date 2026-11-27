@@ -1,0 +1,13 @@
+{"commands": [
+  {"command": "sketch.create", "params": {"plane": "YZ", "name": "Path"}},
+  {"command": "sketch.spline.fit_point", "params": {"points": [[0, 0], [12, 32], [50, 46], [88, 32], [100, 0]]}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "sketch.create", "params": {"plane": "XY", "name": "Grip"}},
+  {"command": "sketch.ellipse", "params": {"center": [0, 0], "major": [8, 0], "minor_radius": 6}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "solid.sweep", "params": {"sketch": "Grip", "path_sketch": "Path", "path": ["s1"], "body_name": "Handle", "name": "Handle"}},
+  {"command": "solid.cylinder", "params": {"diameter": 22, "height": 5, "base": [0, 0, -5], "operation": "join", "name": "Foot A"}},
+  {"command": "solid.cylinder", "params": {"diameter": 22, "height": 5, "base": [0, 100, -5], "operation": "join", "name": "Foot B"}},
+  {"command": "solid.cylinder", "params": {"diameter": 4.5, "height": 10, "base": [0, 0, -5], "operation": "cut", "name": "Screw A"}},
+  {"command": "solid.cylinder", "params": {"diameter": 4.5, "height": 10, "base": [0, 100, -5], "operation": "cut", "name": "Screw B"}}
+]}

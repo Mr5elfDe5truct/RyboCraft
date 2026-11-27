@@ -1,0 +1,133 @@
+{
+ "commands": [
+  {
+   "command": "parameters.change",
+   "params": {
+    "name": "size",
+    "expression": "20 mm"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "size",
+    "width": "size",
+    "height": "size",
+    "body_name": "Calibration cube",
+    "name": "Cube"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "face": [
+      10,
+      10,
+      20
+     ]
+    },
+    "name": "Z label"
+   }
+  },
+  {
+   "command": "sketch.text",
+   "params": {
+    "text": "Z",
+    "at": [
+     6.5,
+     6
+    ],
+    "height": 8,
+    "align": "left"
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 0.6,
+    "direction": "negative",
+    "operation": "cut",
+    "name": "Z"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "face": [
+      10,
+      0,
+      10
+     ]
+    },
+    "name": "X label"
+   }
+  },
+  {
+   "command": "sketch.text",
+   "params": {
+    "text": "X",
+    "at": [
+     6.5,
+     6
+    ],
+    "height": 8
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 0.6,
+    "direction": "negative",
+    "operation": "cut",
+    "name": "X"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "face": [
+      20,
+      10,
+      10
+     ]
+    },
+    "name": "Y label"
+   }
+  },
+  {
+   "command": "sketch.text",
+   "params": {
+    "text": "Y",
+    "at": [
+     6.5,
+     6
+    ],
+    "height": 8
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 0.6,
+    "direction": "negative",
+    "operation": "cut",
+    "name": "Y"
+   }
+  }
+ ]
+}

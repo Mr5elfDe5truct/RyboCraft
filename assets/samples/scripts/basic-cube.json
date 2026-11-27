@@ -1,0 +1,6 @@
+{"commands": [
+  {"command": "parameters.change", "params": {"name": "size", "expression": "30 mm", "comment": "edge length"}},
+  {"command": "parameters.change", "params": {"name": "rounding", "expression": "3 mm", "comment": "edge rounding"}},
+  {"command": "solid.box", "params": {"length": "size", "width": "size", "height": "size", "body_name": "Cube"}},
+  {"command": "solid.fillet", "params": {"edges": [[15, 0, 30], [15, 30, 30], [0, 15, 30], [30, 15, 30], [15, 0, 0], [15, 30, 0], [0, 15, 0], [30, 15, 0], [0, 0, 15], [30, 0, 15], [30, 30, 15], [0, 30, 15]], "radius": "rounding", "name": "Rounded edges"}}
+]}

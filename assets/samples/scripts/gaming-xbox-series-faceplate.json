@@ -1,0 +1,295 @@
+{
+ "commands": [
+  {
+   "command": "parameters.change",
+   "params": {
+    "name": "shell",
+    "expression": "2.0 mm",
+    "comment": "wall thickness"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "Outline"
+   }
+  },
+  {
+   "command": "sketch.spline.fit_point",
+   "params": {
+    "points": [
+     [
+      0,
+      42
+     ],
+     [
+      35,
+      44
+     ],
+     [
+      60,
+      40
+     ],
+     [
+      73,
+      25
+     ],
+     [
+      77,
+      5
+     ],
+     [
+      73,
+      -20
+     ],
+     [
+      65,
+      -45
+     ],
+     [
+      53,
+      -60
+     ],
+     [
+      41,
+      -58
+     ],
+     [
+      31,
+      -36
+     ],
+     [
+      15,
+      -29
+     ],
+     [
+      0,
+      -28
+     ],
+     [
+      -15,
+      -29
+     ],
+     [
+      -31,
+      -36
+     ],
+     [
+      -41,
+      -58
+     ],
+     [
+      -53,
+      -60
+     ],
+     [
+      -65,
+      -45
+     ],
+     [
+      -73,
+      -20
+     ],
+     [
+      -77,
+      5
+     ],
+     [
+      -73,
+      25
+     ],
+     [
+      -60,
+      40
+     ],
+     [
+      -35,
+      44
+     ]
+    ],
+    "periodic": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 8.0,
+    "body_name": "Faceplate",
+    "name": "Plate"
+   }
+  },
+  {
+   "command": "solid.shell",
+   "params": {
+    "faces": [
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "thickness": "shell",
+    "name": "Hollow"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": "8.0 mm",
+    "name": "Openings"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -42,
+     15
+    ],
+    "diameter": 24
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     42,
+     25
+    ],
+    "diameter": 11
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     52,
+     15
+    ],
+    "diameter": 11
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     42,
+     5
+    ],
+    "diameter": 11
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     32,
+     15
+    ],
+    "diameter": 11
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     20,
+     -12
+    ],
+    "diameter": 24
+   }
+  },
+  {
+   "command": "sketch.slot.center_to_center",
+   "params": {
+    "p0": [
+     -28.5,
+     -12
+    ],
+    "p1": [
+     -11.5,
+     -12
+    ],
+    "width": 9
+   }
+  },
+  {
+   "command": "sketch.slot.center_to_center",
+   "params": {
+    "p0": [
+     -20,
+     -20.5
+    ],
+    "p1": [
+     -20,
+     -3.5
+    ],
+    "width": 9
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     30
+    ],
+    "diameter": 16
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -12,
+     14
+    ],
+    "diameter": 6
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     12,
+     14
+    ],
+    "diameter": 6
+   }
+  },
+  {
+   "command": "sketch.slot.center_to_center",
+   "params": {
+    "p0": [
+     -1.5,
+     5
+    ],
+    "p1": [
+     1.5,
+     5
+    ],
+    "width": 4
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 8.0,
+    "direction": "negative",
+    "profiles": "all",
+    "operation": "cut",
+    "name": "Openings"
+   }
+  }
+ ]
+}

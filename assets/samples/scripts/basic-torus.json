@@ -1,0 +1,5 @@
+{"commands": [
+  {"command": "parameters.change", "params": {"name": "ring", "expression": "30 mm", "comment": "distance from the centre to the middle of the tube"}},
+  {"command": "parameters.change", "params": {"name": "tube", "expression": "8 mm", "comment": "tube radius"}},
+  {"command": "solid.torus", "params": {"major": "ring", "minor": "tube", "center": [0, 0, 8], "body_name": "Torus"}}
+]}

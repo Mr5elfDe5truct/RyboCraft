@@ -13,13 +13,39 @@ use crate::start_page;
 /// Recent designs kept.
 pub const MAX_RECENT: usize = 12;
 const THUMB: [usize; 2] = rybocraft_engine::io::THUMBNAIL_SIZE;
-const SAMPLE_PICTURES: [&[u8]; 6] = [
+const SAMPLE_PICTURES: &[&[u8]] = &[
     include_bytes!("../../../assets/samples/exports/0.png"),
     include_bytes!("../../../assets/samples/exports/1.png"),
     include_bytes!("../../../assets/samples/exports/2.png"),
     include_bytes!("../../../assets/samples/exports/3.png"),
     include_bytes!("../../../assets/samples/exports/4.png"),
     include_bytes!("../../../assets/samples/exports/5.png"),
+    include_bytes!("../../../assets/samples/exports/6.png"),
+    include_bytes!("../../../assets/samples/exports/7.png"),
+    include_bytes!("../../../assets/samples/exports/8.png"),
+    include_bytes!("../../../assets/samples/exports/9.png"),
+    include_bytes!("../../../assets/samples/exports/10.png"),
+    include_bytes!("../../../assets/samples/exports/11.png"),
+    include_bytes!("../../../assets/samples/exports/12.png"),
+    include_bytes!("../../../assets/samples/exports/13.png"),
+    include_bytes!("../../../assets/samples/exports/14.png"),
+    include_bytes!("../../../assets/samples/exports/15.png"),
+    include_bytes!("../../../assets/samples/exports/16.png"),
+    include_bytes!("../../../assets/samples/exports/17.png"),
+    include_bytes!("../../../assets/samples/exports/18.png"),
+    include_bytes!("../../../assets/samples/exports/19.png"),
+    include_bytes!("../../../assets/samples/exports/20.png"),
+    include_bytes!("../../../assets/samples/exports/21.png"),
+    include_bytes!("../../../assets/samples/exports/22.png"),
+    include_bytes!("../../../assets/samples/exports/23.png"),
+    include_bytes!("../../../assets/samples/exports/24.png"),
+    include_bytes!("../../../assets/samples/exports/25.png"),
+    include_bytes!("../../../assets/samples/exports/26.png"),
+    include_bytes!("../../../assets/samples/exports/27.png"),
+    include_bytes!("../../../assets/samples/exports/28.png"),
+    include_bytes!("../../../assets/samples/exports/29.png"),
+    include_bytes!("../../../assets/samples/exports/30.png"),
+    include_bytes!("../../../assets/samples/exports/31.png"),
 ];
 
 /// What a background job makes: a key ("sample:N" or a path), the picture, and for samples the
@@ -816,6 +842,7 @@ fn start_body(app: &SolveApp) -> start_page::Start<'_, FileAction> {
         .iter()
         .enumerate()
         .map(|(index, sample)| start_page::Sample {
+            group: app.tr_label(sample.group).into(),
             title: app.tr_label(sample.name).into(),
             description: (if app.home.wanted == Some(index) { app.tr("home.opening") } else { app.tr_label(sample.about) }).into(),
             icon: start_page::Icon::Kit("box"),

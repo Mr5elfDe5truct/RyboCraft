@@ -124,6 +124,8 @@ pub struct MenuEntry<'a, A> {
 }
 
 pub struct Sample<'a, A> {
+    /// The samples with the same group, next to each other, share a section headed by it.
+    pub group: Label<'a>,
     pub title: Label<'a>,
     pub description: Label<'a>,
     pub icon: Icon<'a>,
@@ -325,23 +327,36 @@ fn start_content<A>(ui: &mut egui::Ui, id: &str, start: Start<'_, A>, chosen: &m
             }
         });
     });
-    ui.add_space(t.file_section_gap);
-    FileView::section(ui, &samples_title, t.space_10, |ui| {
-        let (shown, picks): (Vec<_>, Vec<_>) =
-            samples.into_iter().map(|sample| ((sample.title, sample.description, sample.icon, sample.thumbnail), sample.chosen)).unzip();
-        let cards: Vec<_> = shown
-            .iter()
-            .map(|(title, description, icon, thumbnail)| crate::SampleCard { title, description, icon: *icon, thumbnail: *thumbnail })
-            .collect();
-        let sample_id = format!("{id}:sample");
-        let responses = FileView::sample_grid(ui, &sample_id, &cards);
-        for ((index, response), pick) in responses.into_iter().enumerate().zip(picks) {
-            publish(&format!("{sample_id}:{index}"), &response);
-            if response.clicked() {
-                *chosen = Some(pick);
-            }
+    // One section per group: "Samples · Electronics". Each grid keeps its own widget state, and a
+    // card's published id is its index in the whole list, as the host's actions are.
+    let mut index = 0;
+    let mut samples = samples.into_iter().peekable();
+    let mut grid = 0;
+    while let Some(group) = samples.peek().map(|sample| sample.group.clone()) {
+        let mut run = Vec::new();
+        while let Some(sample) = samples.next_if(|sample| sample.group == group) {
+            run.push(sample);
         }
-    });
+        let title = if group.is_empty() { samples_title.to_string() } else { format!("{samples_title} · {group}") };
+        ui.add_space(t.file_section_gap);
+        FileView::section(ui, &title, t.space_10, |ui| {
+            let (shown, picks): (Vec<_>, Vec<_>) =
+                run.into_iter().map(|sample| ((sample.title, sample.description, sample.icon, sample.thumbnail), sample.chosen)).unzip();
+            let cards: Vec<_> = shown
+                .iter()
+                .map(|(title, description, icon, thumbnail)| crate::SampleCard { title, description, icon: *icon, thumbnail: *thumbnail })
+                .collect();
+            let responses = FileView::sample_grid(ui, &format!("{id}:sample:grid{grid}"), &cards);
+            for (response, pick) in responses.into_iter().zip(picks) {
+                publish(&format!("{id}:sample:{index}"), &response);
+                index += 1;
+                if response.clicked() {
+                    *chosen = Some(pick);
+                }
+            }
+        });
+        grid += 1;
+    }
 }
 
 fn review_list<A>(ui: &mut egui::Ui, id: &str, reviews: Reviews<'_, A>, chosen: &mut Option<A>) {
@@ -444,6 +459,7 @@ mod tests {
                 samples_title: "Samples".into(),
                 samples: (0..3)
                     .map(|i| Sample {
+                        group: if i < 2 { "Basic" } else { "Complex" }.into(),
                         title: format!("sample {i}").into(),
                         description: "a sample".into(),
                         icon: Icon::Kit("box"),

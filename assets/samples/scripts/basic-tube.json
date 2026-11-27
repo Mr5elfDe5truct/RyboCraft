@@ -1,0 +1,10 @@
+{"commands": [
+  {"command": "parameters.change", "params": {"name": "outer", "expression": "40 mm", "comment": "outside diameter"}},
+  {"command": "parameters.change", "params": {"name": "wall", "expression": "3 mm"}},
+  {"command": "parameters.change", "params": {"name": "height", "expression": "60 mm"}},
+  {"command": "sketch.create", "params": {"plane": "XY", "name": "Rings"}},
+  {"command": "sketch.circle.center", "params": {"center": [0, 0], "diameter": "outer"}},
+  {"command": "sketch.circle.center", "params": {"center": [0, 0], "diameter": "outer - 2 * wall"}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "solid.extrude", "params": {"distance": "height", "profiles": [0], "body_name": "Tube", "name": "Tube"}}
+]}

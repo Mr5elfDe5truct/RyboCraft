@@ -32,22 +32,93 @@ pub fn script() -> Value {
     ]})
 }
 
-/// A built-in sample design: its name, a line about what it shows, and the script that builds it.
+/// A built-in sample design: its name, a line about what it shows, the group the start page lists
+/// it under, and the script that builds it.
 pub struct Sample {
     pub name: &'static str,
     pub about: &'static str,
+    pub group: &'static str,
     pub script: fn() -> Value,
 }
 
-/// The built-in samples (the start page lists them), each built through commands.
+/// The start page's sample groups, in the order it shows them.
+pub const GROUPS: [&str; 6] = ["Engineering", "Basic Shapes", "Complex Shapes", "Electronics", "Gaming", "Workshop & Home"];
+
+/// A sample whose script is a file in `assets/samples/scripts/`: the commands it runs, as
+/// `rybocraft-cli run` takes them. A script that doesn't parse builds nothing (the tests check
+/// every one builds).
+macro_rules! file_sample {
+    ($name:ident, $file:literal) => {
+        fn $name() -> Value {
+            serde_json::from_str(include_str!(concat!("../../../assets/samples/scripts/", $file, ".json")))
+                .unwrap_or_else(|_| json!({"commands": []}))
+        }
+    };
+}
+
+file_sample!(basic_cube, "basic-cube");
+file_sample!(basic_tube, "basic-tube");
+file_sample!(basic_sphere, "basic-sphere");
+file_sample!(basic_cone, "basic-cone");
+file_sample!(basic_torus, "basic-torus");
+file_sample!(basic_pyramid, "basic-pyramid");
+file_sample!(basic_hex_prism, "basic-hex-prism");
+file_sample!(complex_twisted_vase, "complex-twisted-vase");
+file_sample!(complex_coil_spring, "complex-coil-spring");
+file_sample!(complex_bottle, "complex-bottle");
+file_sample!(complex_knurled_knob, "complex-knurled-knob");
+file_sample!(complex_swept_handle, "complex-swept-handle");
+file_sample!(complex_wing, "complex-wing");
+file_sample!(pi3b_plus_case, "electronics-pi3b-plus-case");
+file_sample!(pi4_case, "electronics-pi4-case");
+file_sample!(pi5_case, "electronics-pi5-case");
+file_sample!(arduino_uno_base, "electronics-arduino-uno-base");
+file_sample!(xbox_faceplate, "gaming-xbox-series-faceplate");
+file_sample!(dualsense_faceplate, "gaming-ps5-dualsense-faceplate");
+file_sample!(phone_stand, "maker-phone-stand");
+file_sample!(cable_clip, "maker-cable-clip");
+file_sample!(hex_bit_holder, "maker-hex-bit-holder");
+file_sample!(sd_card_holder, "maker-sd-card-holder");
+file_sample!(calibration_cube, "maker-calibration-cube");
+file_sample!(wall_hook, "maker-wall-hook");
+file_sample!(grid_bin, "maker-grid-bin");
+
+/// The built-in samples (the start page lists them by group, in this order), each built through
+/// commands. Their pictures are `assets/samples/exports/<index>.png`, so add new ones at the end.
 pub fn samples() -> Vec<Sample> {
     vec![
-        Sample { name: "Sample Plate", about: "Parametric plate with fillets, holes and a bored boss", script },
-        Sample { name: "Sheet Metal Bracket", about: "Base flange with edge flanges and a hem on a 2 mm rule", script: bracket },
-        Sample { name: "Hinge Assembly", about: "Two components and a revolute joint, driven to 60°", script: hinge },
-        Sample { name: "Plastic Enclosure", about: "Shelled box with a lip, screw bosses, a rest and a snap fit", script: enclosure },
-        Sample { name: "Bolted Flange", about: "Hub and flange with a circular pattern driven by a parameter", script: flange },
-        Sample { name: "Vent Plate", about: "Slots in a rectangular pattern: rows, columns and pitch are parameters", script: vents },
+        Sample { name: "Sample Plate", about: "Parametric plate with fillets, holes and a bored boss", group: GROUPS[0], script: script },
+        Sample { name: "Sheet Metal Bracket", about: "Base flange with edge flanges and a hem on a 2 mm rule", group: GROUPS[0], script: bracket },
+        Sample { name: "Hinge Assembly", about: "Two components and a revolute joint, driven to 60°", group: GROUPS[0], script: hinge },
+        Sample { name: "Plastic Enclosure", about: "Shelled box with a lip, screw bosses, a rest and a snap fit", group: GROUPS[0], script: enclosure },
+        Sample { name: "Bolted Flange", about: "Hub and flange with a circular pattern driven by a parameter", group: GROUPS[0], script: flange },
+        Sample { name: "Vent Plate", about: "Slots in a rectangular pattern: rows, columns and pitch are parameters", group: GROUPS[0], script: vents },
+        Sample { name: "Rounded Cube", about: "A box with every edge filleted: size and rounding are parameters", group: GROUPS[1], script: basic_cube },
+        Sample { name: "Tube", about: "Two circles extruded into a tube: diameter, wall and height are parameters", group: GROUPS[1], script: basic_tube },
+        Sample { name: "Sphere", about: "A sphere whose diameter is a parameter", group: GROUPS[1], script: basic_sphere },
+        Sample { name: "Cone", about: "A cone, or a frustum when the top diameter is above zero", group: GROUPS[1], script: basic_cone },
+        Sample { name: "Torus", about: "A ring: its radius and the tube's are parameters", group: GROUPS[1], script: basic_torus },
+        Sample { name: "Square Pyramid", about: "A loft from a square to a single apex point", group: GROUPS[1], script: basic_pyramid },
+        Sample { name: "Hexagonal Prism", about: "A six-sided polygon extruded to a height parameter", group: GROUPS[1], script: basic_hex_prism },
+        Sample { name: "Twisted Vase", about: "A loft through three turned octagons, shelled open at the top", group: GROUPS[2], script: complex_twisted_vase },
+        Sample { name: "Coil Spring", about: "A helical coil: turns and pitch are parameters", group: GROUPS[2], script: complex_coil_spring },
+        Sample { name: "Threaded Bottle", about: "A revolved spline profile, shelled, with an M27 thread on the neck", group: GROUPS[2], script: complex_bottle },
+        Sample { name: "Knurled Knob", about: "24 grooves in a circular pattern, with a nut pocket and a bolt hole", group: GROUPS[2], script: complex_knurled_knob },
+        Sample { name: "Swept Handle", about: "An elliptical grip swept along a spline, with screw feet", group: GROUPS[2], script: complex_swept_handle },
+        Sample { name: "Wing Section", about: "A tapered loft between two NACA 2412 airfoils", group: GROUPS[2], script: complex_wing },
+        Sample { name: "Raspberry Pi 3 Model B+ Case", about: "Case and vented lid with standoffs and cut-outs for the Pi 3 B+ ports", group: GROUPS[3], script: pi3b_plus_case },
+        Sample { name: "Raspberry Pi 4 Model B Case", about: "Case and vented lid with standoffs and cut-outs for the Pi 4 ports", group: GROUPS[3], script: pi4_case },
+        Sample { name: "Raspberry Pi 5 Case", about: "Case and extra-vented lid with standoffs and cut-outs for the Pi 5 ports", group: GROUPS[3], script: pi5_case },
+        Sample { name: "Arduino Uno Base", about: "A base plate with standoffs on the Uno's mounting holes", group: GROUPS[3], script: arduino_uno_base },
+        Sample { name: "Xbox Series X|S Controller Faceplate", about: "Starting shape for a replacement faceplate: check it against your controller before printing", group: GROUPS[4], script: xbox_faceplate },
+        Sample { name: "PS5 DualSense Controller Faceplate", about: "Starting shape for a replacement faceplate: check it against your controller before printing", group: GROUPS[4], script: dualsense_faceplate },
+        Sample { name: "Phone Stand", about: "A leaning stand with a lip and a cable notch; width is a parameter", group: GROUPS[5], script: phone_stand },
+        Sample { name: "Cable Clip", about: "A screw-on clip sized from the cable diameter parameter", group: GROUPS[5], script: cable_clip },
+        Sample { name: "Hex Bit Holder", about: "Pockets for 1/4 inch bits in a pattern of rows and columns", group: GROUPS[5], script: hex_bit_holder },
+        Sample { name: "SD Card Holder", about: "Slots for five SD cards and sixteen microSD cards", group: GROUPS[5], script: sd_card_holder },
+        Sample { name: "Calibration Cube", about: "A 20 mm cube with X, Y and Z engraved on its faces", group: GROUPS[5], script: calibration_cube },
+        Sample { name: "Wall Hook", about: "A screw-on hook that prints on its side, made by Wall Hook", group: GROUPS[5], script: wall_hook },
+        Sample { name: "Grid Bin", about: "A storage bin for 42 mm grid base plates, made by Grid Bin", group: GROUPS[5], script: grid_bin },
     ]
 }
 
@@ -177,6 +248,23 @@ mod tests {
         let reopened_plate = reopened_world.body("Plate").unwrap().mesh();
         assert!(!reopened_plate.contains(rybocore_record::Vec3::new(40., 25., 2.)));
         assert!(reopened_plate.contains(rybocore_record::Vec3::new(40., 35., 2.)));
+    }
+
+    /// Every sample has commands (a script file that didn't parse would build nothing), a group
+    /// the start page knows, and a name of its own.
+    #[test]
+    fn samples_have_commands_groups_and_unique_names() {
+        let samples = super::samples();
+        let mut names = std::collections::BTreeSet::new();
+        for s in &samples {
+            let script = (s.script)();
+            assert!(script["commands"].as_array().is_some_and(|c| !c.is_empty()), "{} has no commands", s.name);
+            assert!(super::GROUPS.contains(&s.group), "{}: unknown group {}", s.name, s.group);
+            assert!(names.insert(s.name), "{} twice", s.name);
+        }
+        // The start page shows the groups in order, each once: keep a group's samples together.
+        let order: Vec<_> = samples.iter().map(|s| s.group).collect::<Vec<_>>().chunk_by(|a, b| a == b).map(|run| run[0]).collect();
+        assert_eq!(order, super::GROUPS);
     }
 
     /// Every built-in sample builds without a failing feature or joint, and without a panic on

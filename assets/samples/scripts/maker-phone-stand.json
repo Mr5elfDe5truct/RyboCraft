@@ -1,0 +1,105 @@
+{
+ "commands": [
+  {
+   "command": "parameters.change",
+   "params": {
+    "name": "width",
+    "expression": "70 mm",
+    "comment": "how wide the stand is"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "YZ",
+    "name": "Side"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      80,
+      0
+     ],
+     [
+      80,
+      6
+     ],
+     [
+      30,
+      6
+     ],
+     [
+      30,
+      16
+     ],
+     [
+      24,
+      16
+     ],
+     [
+      24,
+      6
+     ],
+     [
+      14,
+      6
+     ],
+     [
+      48,
+      90
+     ],
+     [
+      42,
+      92
+     ],
+     [
+      6,
+      6
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": "width",
+    "body_name": "Phone stand",
+    "name": "Stand"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 14,
+    "width": 12,
+    "height": 8,
+    "corner": [
+     "width / 2 - 7",
+     12,
+     -1
+    ],
+    "operation": "cut",
+    "name": "Cable notch"
+   }
+  }
+ ]
+}
